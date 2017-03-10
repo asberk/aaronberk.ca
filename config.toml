@@ -1,3 +1,4 @@
 languageCode = "en-us"
 title = "Aaron Berk"
 baseURL = "http://asberk.ca/"
+publishDir = "docs"
