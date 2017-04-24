@@ -1,22 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Paley on Aaron Berk</title>
-    <link>http://asberk.ca/tags/paley/index.xml</link>
-    <description>Recent content in Paley on Aaron Berk</description>
+    <title>Graphs on Aaron Berk</title>
+    <link>http://asberk.ca/tags/graphs/index.xml</link>
+    <description>Recent content in Graphs on Aaron Berk</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Aaron Berk</copyright>
-    <atom:link href="/tags/paley/index.xml" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>A Proof of Calderón&#39;s Formula</title>
-      <link>http://asberk.ca/project/proof-calderon/</link>
-      <pubDate>Mon, 24 Apr 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://asberk.ca/project/proof-calderon/</guid>
-      <description></description>
-    </item>
+    <atom:link href="/tags/graphs/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>On Multiscale Analysis and PDE Methods on Graphs in Image Processing</title>
