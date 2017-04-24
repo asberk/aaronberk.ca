@@ -32,6 +32,15 @@
     
     <url>
     
+      <loc>http://asberk.ca/project/iam-retreat-2017/</loc>
+      <lastmod>2017-04-24T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://asberk.ca/tags/academic/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     </url>
@@ -107,6 +116,26 @@
     <url>
     
       <loc>http://asberk.ca/tags/analysis/</loc>
+      <lastmod>2017-04-24T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://asberk.ca/tags/compressed/</loc>
+      <lastmod>2017-04-24T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://asberk.ca/tags/compressive/</loc>
       <lastmod>2017-04-24T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -297,6 +326,16 @@
     <url>
     
       <loc>http://asberk.ca/publication_types/</loc>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://asberk.ca/tags/sensing/</loc>
+      <lastmod>2017-04-24T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
