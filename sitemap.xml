@@ -5,6 +5,15 @@
     
     <url>
     
+      <loc>http://asberk.ca/post/gradient-descent/</loc>
+      <lastmod>2017-04-24T11:16:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://asberk.ca/tags/academic/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     </url>
@@ -68,51 +77,6 @@
     
     <url>
     
-      <loc>http://asberk.ca/post/getting-started/</loc>
-      <lastmod>2016-04-20T12:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://asberk.ca/post/widgets/</loc>
-      <lastmod>2016-04-20T11:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://asberk.ca/post/managing-content/</loc>
-      <lastmod>2016-04-20T11:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://asberk.ca/post/writing-markdown-latex/</loc>
-      <lastmod>2016-04-20T10:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://asberk.ca/post/migrate-from-jekyll/</loc>
-      <lastmod>2014-03-10T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>http://asberk.ca/publication/grem-1/</loc>
       <lastmod>2013-09-02T00:00:00+00:00</lastmod>
     </url>
@@ -162,8 +126,8 @@
     
     <url>
     
-      <loc>http://asberk.ca/tags/hugo/</loc>
-      <lastmod>2016-04-20T12:00:00+00:00</lastmod>
+      <loc>http://asberk.ca/tags/descent/</loc>
+      <lastmod>2017-04-24T11:16:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -172,8 +136,38 @@
     
     <url>
     
-      <loc>http://asberk.ca/tags/jekyll/</loc>
-      <lastmod>2014-03-10T00:00:00+00:00</lastmod>
+      <loc>http://asberk.ca/tags/gradient/</loc>
+      <lastmod>2017-04-24T11:16:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://asberk.ca/tags/learning/</loc>
+      <lastmod>2017-04-24T11:16:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://asberk.ca/tags/machine/</loc>
+      <lastmod>2017-04-24T11:16:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://asberk.ca/tags/machine-learning/</loc>
+      <lastmod>2017-04-24T11:16:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
