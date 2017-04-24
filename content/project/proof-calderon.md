@@ -6,7 +6,7 @@ date = "2017-04-24"
 title = "A Proof of Calderón's Formula"
 
 # Project summary to display on homepage.
-summary = "A proof of Calderón's convolutional identity for functions in $L^2(\\mathbb{R}^n, \\mathrm{d}t/t)$."
+summary = "A proof of Calderón's convolutional reproducing formula for functions in L^2 with the Haar measure."
 
 # Optional image to display on homepage (relative to `static/img/` folder).
 image_preview = "calderon.png"
