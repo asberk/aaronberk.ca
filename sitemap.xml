@@ -14,6 +14,15 @@
     
     <url>
     
+      <loc>http://asberk.ca/project/proof-calderon/</loc>
+      <lastmod>2017-04-24T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://asberk.ca/tags/academic/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     </url>
@@ -59,24 +68,6 @@
     
     <url>
     
-      <loc>http://asberk.ca/project/deep-learning/</loc>
-      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://asberk.ca/project/example-external-project/</loc>
-      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>http://asberk.ca/publication/grem-1/</loc>
       <lastmod>2013-09-02T00:00:00+00:00</lastmod>
     </url>
@@ -106,8 +97,8 @@
     
     <url>
     
-      <loc>http://asberk.ca/tags/deep-learning/</loc>
-      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+      <loc>http://asberk.ca/tags/analysis/</loc>
+      <lastmod>2017-04-24T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -116,8 +107,8 @@
     
     <url>
     
-      <loc>http://asberk.ca/tags/demo/</loc>
-      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+      <loc>http://asberk.ca/tags/decomposition/</loc>
+      <lastmod>2017-04-24T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -146,8 +137,28 @@
     
     <url>
     
+      <loc>http://asberk.ca/tags/harmonic-analysis/</loc>
+      <lastmod>2017-04-24T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://asberk.ca/tags/learning/</loc>
       <lastmod>2017-04-24T11:16:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://asberk.ca/tags/littlewood/</loc>
+      <lastmod>2017-04-24T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -176,8 +187,18 @@
     
     <url>
     
+      <loc>http://asberk.ca/tags/paley/</loc>
+      <lastmod>2017-04-24T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://asberk.ca/project/</loc>
-      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+      <lastmod>2017-04-24T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -187,6 +208,16 @@
     <url>
     
       <loc>http://asberk.ca/publication_types/</loc>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://asberk.ca/tags/spectral/</loc>
+      <lastmod>2017-04-24T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     

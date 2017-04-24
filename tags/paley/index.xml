@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Projects on Aaron Berk</title>
-    <link>http://asberk.ca/project/index.xml</link>
-    <description>Recent content in Projects on Aaron Berk</description>
+    <title>Paley on Aaron Berk</title>
+    <link>http://asberk.ca/tags/paley/index.xml</link>
+    <description>Recent content in Paley on Aaron Berk</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Aaron Berk</copyright>
-    <lastBuildDate>Mon, 24 Apr 2017 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/paley/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>A Proof of Calderón&#39;s Formula</title>
