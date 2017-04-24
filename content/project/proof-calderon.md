@@ -1,25 +1,25 @@
 +++
 # Date this page was created.
-date = "2016-04-27"
+date = "2017-04-24"
 
 # Project title.
-title = "External Project"
+title = "A Proof of Calderón's Formula"
 
 # Project summary to display on homepage.
-summary = "An example of linking directly to an external project website using `external_link`."
+summary = "A proof of Calderón's convolutional identity for functions in $L^2(\mathbb{R}^n, \mathrm{d}t/t)$."
 
 # Optional image to display on homepage (relative to `static/img/` folder).
-image_preview = "boards.jpg"
+image_preview = ""
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["demo"]
+tags = ["analysis", "harmonic analysis", "paley", "littlewood", "decomposition", "spectral"]
 
 # Optional external URL for project (replaces project detail page).
-external_link = "http://example.org"
+external_link = "https://www.dropbox.com/s/bkdga8qow6ug61h/aberk_presn_Analysis.pdf"
 
 # Does the project detail page use math formatting?
-math = false
+math = true
 
 +++
 
