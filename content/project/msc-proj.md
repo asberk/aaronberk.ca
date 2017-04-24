@@ -3,10 +3,10 @@
 date = "2017-04-24"
 
 # Project title.
-title = "On Multiscale Analysis and PDE Methods on Graphs in Image Processing"
+title = "MSc project submission"
 
 # Project summary to display on homepage.
-summary = "My MSc project submission."
+summary = "On Multiscale Analysis and PDE Methods on Graphs in Image Processing"
 
 # Optional image to display on homepage (relative to `static/img/` folder).
 image_preview = "barbara-decomp.png"
