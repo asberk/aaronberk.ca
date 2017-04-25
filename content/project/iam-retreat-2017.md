@@ -13,7 +13,7 @@ image_preview = "bppd-divergence.png"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["compressed", "compressive", "sensing"]
+tags = ["compressed", "compressive", "sensing", "stability", "compressed-sensing"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = "https://www.dropbox.com/s/kazeex9nao2j5av/aberk_iam-retreat_2017-04_CS.pdf?dl=0"
