@@ -135,6 +135,16 @@
     
     <url>
     
+      <loc>http://asberk.ca/tags/compressed-sensing/</loc>
+      <lastmod>2017-04-24T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://asberk.ca/tags/compressive/</loc>
       <lastmod>2017-04-24T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -345,6 +355,16 @@
     <url>
     
       <loc>http://asberk.ca/tags/spectral/</loc>
+      <lastmod>2017-04-24T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://asberk.ca/tags/stability/</loc>
       <lastmod>2017-04-24T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
