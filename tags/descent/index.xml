@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Descent on Aaron Berk</title>
-    <link>http://asberk.ca/tags/descent/index.xml</link>
+    <link>http://aaronberk.ca/tags/descent/index.xml</link>
     <description>Recent content in Descent on Aaron Berk</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -11,10 +11,10 @@
     
     <item>
       <title>Gradient Descent in Python for Machine Learning</title>
-      <link>http://asberk.ca/post/gradient-descent/</link>
+      <link>http://aaronberk.ca/post/gradient-descent/</link>
       <pubDate>Mon, 24 Apr 2017 11:16:00 +0000</pubDate>
       
-      <guid>http://asberk.ca/post/gradient-descent/</guid>
+      <guid>http://aaronberk.ca/post/gradient-descent/</guid>
       <description></description>
     </item>
     
