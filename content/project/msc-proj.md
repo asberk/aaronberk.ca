@@ -13,7 +13,7 @@ image_preview = "barbara-decomp.png"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["analysis", "harmonic analysis", "paley", "littlewood", "decomposition", "spectral", "multiscale", "multi-scale", "PDE", "pde", "graph", "graphs", "image", "processing", "image-processing"]
+tags = ["analysis", "harmonic-analysis", "paley", "littlewood", "decomposition", "spectral", "multiscale", "multi-scale", "PDE", "pde", "graph", "graphs", "image", "processing", "image-processing"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = "https://www.dropbox.com/s/aam54pap8ghfdp2/berkas-res-final.pdf?dl=0"

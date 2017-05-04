@@ -26,12 +26,12 @@ view = 1
   tag = "*"
   
 [[filter]]
-  name = "Deep Learning"
-  tag = ".deep-learning"
+  name = "Compressed Sensing"
+  tag = ".compressed-sensing"
 
 [[filter]]
-  name = "Other"
-  tag = ".demo"
+  name = "Harmonic Analysis"
+  tag = ".harmonic-analysis"
 
 +++
 
