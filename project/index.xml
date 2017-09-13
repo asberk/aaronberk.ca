@@ -2,13 +2,58 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on Aaron Berk</title>
-    <link>http://aaronberk.ca/project/index.xml</link>
+    <link>http://aaronberk.ca/project/</link>
     <description>Recent content in Projects on Aaron Berk</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Aaron Berk</copyright>
-    <lastBuildDate>Mon, 24 Apr 2017 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 12 Sep 2017 18:53:46 -0700</lastBuildDate>
+    <atom:link href="/project/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Land type clustering from photogrammetric drone image data</title>
+      <link>http://aaronberk.ca/project/bcdata-smartshores/</link>
+      <pubDate>Tue, 12 Sep 2017 18:53:46 -0700</pubDate>
+      
+      <guid>http://aaronberk.ca/project/bcdata-smartshores/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Video Compression Analysis</title>
+      <link>http://aaronberk.ca/project/bcdata-midvale-take1/</link>
+      <pubDate>Tue, 12 Sep 2017 18:50:39 -0700</pubDate>
+      
+      <guid>http://aaronberk.ca/project/bcdata-midvale-take1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gradient Descent</title>
+      <link>http://aaronberk.ca/project/gradient-descent/</link>
+      <pubDate>Tue, 12 Sep 2017 18:46:08 -0700</pubDate>
+      
+      <guid>http://aaronberk.ca/project/gradient-descent/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://aaronberk.ca/project/simplml/</link>
+      <pubDate>Tue, 12 Sep 2017 18:32:06 -0700</pubDate>
+      
+      <guid>http://aaronberk.ca/project/simplml/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://aaronberk.ca/project/wavelets-are-cool/</link>
+      <pubDate>Sat, 12 Aug 2017 20:49:35 -0700</pubDate>
+      
+      <guid>http://aaronberk.ca/project/wavelets-are-cool/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>A Proof of Calderón&#39;s Formula</title>

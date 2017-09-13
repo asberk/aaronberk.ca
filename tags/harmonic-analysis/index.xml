@@ -2,12 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Harmonic Analysis on Aaron Berk</title>
-    <link>http://aaronberk.ca/tags/harmonic-analysis/index.xml</link>
+    <link>http://aaronberk.ca/tags/harmonic-analysis/</link>
     <description>Recent content in Harmonic Analysis on Aaron Berk</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Aaron Berk</copyright>
-    <atom:link href="/tags/harmonic-analysis/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 12 Aug 2017 20:49:35 -0700</lastBuildDate>
+    <atom:link href="/tags/harmonic-analysis/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title></title>
+      <link>http://aaronberk.ca/project/wavelets-are-cool/</link>
+      <pubDate>Sat, 12 Aug 2017 20:49:35 -0700</pubDate>
+      
+      <guid>http://aaronberk.ca/project/wavelets-are-cool/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>A Proof of Calderón&#39;s Formula</title>

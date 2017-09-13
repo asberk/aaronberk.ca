@@ -5,8 +5,53 @@
     
     <url>
     
-      <loc>http://aaronberk.ca/post/gradient-descent/</loc>
-      <lastmod>2017-04-24T11:16:00+00:00</lastmod>
+      <loc>http://aaronberk.ca/post/bcdata-workshop-2017/</loc>
+      <lastmod>2017-09-12T19:47:28-07:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://aaronberk.ca/project/bcdata-smartshores/</loc>
+      <lastmod>2017-09-12T18:53:46-07:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://aaronberk.ca/project/bcdata-midvale-take1/</loc>
+      <lastmod>2017-09-12T18:50:39-07:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://aaronberk.ca/project/gradient-descent/</loc>
+      <lastmod>2017-09-12T18:46:08-07:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://aaronberk.ca/project/simplml/</loc>
+      <lastmod>2017-09-12T18:32:06-07:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://aaronberk.ca/project/wavelets-are-cool/</loc>
+      <lastmod>2017-08-12T20:49:35-07:00</lastmod>
     </url>
     
   
@@ -125,6 +170,15 @@
     
     <url>
     
+      <loc>http://aaronberk.ca/categories/</loc>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://aaronberk.ca/tags/compressed/</loc>
       <lastmod>2017-04-24T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -155,6 +209,16 @@
     
     <url>
     
+      <loc>http://aaronberk.ca/tags/data-science/</loc>
+      <lastmod>2017-09-12T19:47:28-07:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://aaronberk.ca/tags/decomposition/</loc>
       <lastmod>2017-04-24T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -165,8 +229,8 @@
     
     <url>
     
-      <loc>http://aaronberk.ca/tags/descent/</loc>
-      <lastmod>2017-04-24T11:16:00+00:00</lastmod>
+      <loc>http://aaronberk.ca/tags/gist/</loc>
+      <lastmod>2017-09-12T18:46:08-07:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -175,8 +239,8 @@
     
     <url>
     
-      <loc>http://aaronberk.ca/tags/gradient/</loc>
-      <lastmod>2017-04-24T11:16:00+00:00</lastmod>
+      <loc>http://aaronberk.ca/tags/gradient-descent/</loc>
+      <lastmod>2017-09-12T18:46:08-07:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -206,7 +270,7 @@
     <url>
     
       <loc>http://aaronberk.ca/tags/harmonic-analysis/</loc>
-      <lastmod>2017-04-24T00:00:00+00:00</lastmod>
+      <lastmod>2017-08-12T20:49:35-07:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -235,16 +299,6 @@
     
     <url>
     
-      <loc>http://aaronberk.ca/tags/learning/</loc>
-      <lastmod>2017-04-24T11:16:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>http://aaronberk.ca/tags/littlewood/</loc>
       <lastmod>2017-04-24T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -255,18 +309,8 @@
     
     <url>
     
-      <loc>http://aaronberk.ca/tags/machine/</loc>
-      <lastmod>2017-04-24T11:16:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>http://aaronberk.ca/tags/machine-learning/</loc>
-      <lastmod>2017-04-24T11:16:00+00:00</lastmod>
+      <lastmod>2017-09-12T19:47:28-07:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -326,7 +370,7 @@
     <url>
     
       <loc>http://aaronberk.ca/project/</loc>
-      <lastmod>2017-04-24T00:00:00+00:00</lastmod>
+      <lastmod>2017-09-12T18:53:46-07:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -336,6 +380,7 @@
     <url>
     
       <loc>http://aaronberk.ca/publication_types/</loc>
+      <lastmod>2013-09-02T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -346,6 +391,16 @@
     
       <loc>http://aaronberk.ca/tags/sensing/</loc>
       <lastmod>2017-04-24T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://aaronberk.ca/tags/signal-processing/</loc>
+      <lastmod>2017-08-12T20:49:35-07:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -375,6 +430,7 @@
     <url>
     
       <loc>http://aaronberk.ca/tags/</loc>
+      <lastmod>2017-01-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     

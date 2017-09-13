@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Aaron Berk</title>
+    <link>http://aaronberk.ca/tags/</link>
+    <description>Recent content in Tags on Aaron Berk</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Aaron Berk</copyright>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Content tagged as &#39;Academic&#39;</title>
+      <link>http://aaronberk.ca/tags/academic/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://aaronberk.ca/tags/academic/</guid>
+      <description>&lt;p&gt;Here is a list of all the content that has been tagged as &lt;em&gt;academic&lt;/em&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Analysis</title>
+      <link>http://aaronberk.ca/tags/analysis/</link>
+      <pubDate>Mon, 24 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://aaronberk.ca/tags/analysis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Compressed</title>
+      <link>http://aaronberk.ca/tags/compressed/</link>
+      <pubDate>Mon, 24 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://aaronberk.ca/tags/compressed/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Compressed Sensing</title>
+      <link>http://aaronberk.ca/tags/compressed-sensing/</link>
+      <pubDate>Mon, 24 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://aaronberk.ca/tags/compressed-sensing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Compressive</title>
+      <link>http://aaronberk.ca/tags/compressive/</link>
+      <pubDate>Mon, 24 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://aaronberk.ca/tags/compressive/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data Science</title>
+      <link>http://aaronberk.ca/tags/data-science/</link>
+      <pubDate>Tue, 12 Sep 2017 19:47:28 -0700</pubDate>
+      
+      <guid>http://aaronberk.ca/tags/data-science/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Decomposition</title>
+      <link>http://aaronberk.ca/tags/decomposition/</link>
+      <pubDate>Mon, 24 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://aaronberk.ca/tags/decomposition/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gist</title>
+      <link>http://aaronberk.ca/tags/gist/</link>
+      <pubDate>Tue, 12 Sep 2017 18:46:08 -0700</pubDate>
+      
+      <guid>http://aaronberk.ca/tags/gist/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gradient Descent</title>
+      <link>http://aaronberk.ca/tags/gradient-descent/</link>
+      <pubDate>Tue, 12 Sep 2017 18:46:08 -0700</pubDate>
+      
+      <guid>http://aaronberk.ca/tags/gradient-descent/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Graph</title>
+      <link>http://aaronberk.ca/tags/graph/</link>
+      <pubDate>Mon, 24 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://aaronberk.ca/tags/graph/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Graphs</title>
+      <link>http://aaronberk.ca/tags/graphs/</link>
+      <pubDate>Mon, 24 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://aaronberk.ca/tags/graphs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Harmonic Analysis</title>
+      <link>http://aaronberk.ca/tags/harmonic-analysis/</link>
+      <pubDate>Sat, 12 Aug 2017 20:49:35 -0700</pubDate>
+      
+      <guid>http://aaronberk.ca/tags/harmonic-analysis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Image</title>
+      <link>http://aaronberk.ca/tags/image/</link>
+      <pubDate>Mon, 24 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://aaronberk.ca/tags/image/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Image Processing</title>
+      <link>http://aaronberk.ca/tags/image-processing/</link>
+      <pubDate>Mon, 24 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://aaronberk.ca/tags/image-processing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Littlewood</title>
+      <link>http://aaronberk.ca/tags/littlewood/</link>
+      <pubDate>Mon, 24 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://aaronberk.ca/tags/littlewood/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
