@@ -33,5 +33,13 @@ view = 1
   name = "Harmonic Analysis"
   tag = ".harmonic-analysis"
 
+[[filter]]
+  name = "Data Science"
+  tag = ".data-science"
+
+[[filter]]
+  name = "Machine Learning"
+  tag = ".machine-learning"
+
 +++
 

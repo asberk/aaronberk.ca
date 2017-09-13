@@ -36,7 +36,7 @@ weight = 1
 
 # About
 
-I am a second year PhD student in Applied Mathematics at the University of
+I am a third year PhD student in Applied Mathematics at the University of
 British Columbia being advised by
 [Özgür Yilmaz](http://www.math.ubc.ca/~oyilmaz/) and
 [Yaniv Plan](http://www.yanivplan.com/). My research is in the area of

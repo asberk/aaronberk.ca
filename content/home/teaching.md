@@ -14,8 +14,9 @@ weight = 60
 
 +++
 
-I am currently the workshop TA for the 2017 IAM Data Science Workshop.  
-Previously,
+I am currently the workshop TA for Probability, Data Wrangling and Supervised learning for the 2017 [UBC MDS](https://ubc-mds.github.io/) program.
+
+Previously, I was co-organizer and workshop TA for the [2017 BC Data Science workshop](http://workshop.bcdata.ca).
 
 * ODEs (UBC Math 253, 2016)
 * Engineering Vector Calculus (UBC Math 264, 2016)
