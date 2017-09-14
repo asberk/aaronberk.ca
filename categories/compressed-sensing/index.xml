@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Compressed Sensing on Aaron Berk</title>
+    <link>http://aaronberk.ca/categories/compressed-sensing/</link>
+    <description>Recent content in Compressed Sensing on Aaron Berk</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Aaron Berk</copyright>
+    <lastBuildDate>Thu, 14 Sep 2017 11:47:47 -0700</lastBuildDate>
+    <atom:link href="/categories/compressed-sensing/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Matrix Completion Whirlwind</title>
+      <link>http://aaronberk.ca/post/matrix-completion-whirlwind/</link>
+      <pubDate>Thu, 14 Sep 2017 11:47:47 -0700</pubDate>
+      
+      <guid>http://aaronberk.ca/post/matrix-completion-whirlwind/</guid>
+      <description>
+
+&lt;h2 id=&#34;summary&#34;&gt;Summary&lt;/h2&gt;
+
+&lt;p&gt;I recently wrote some basic Python functions for a matrix completion tutorial, covering elementary theory and a couple popular convex optimization methods for matrix completion.&lt;/p&gt;
+
+&lt;p&gt;The &lt;a href=&#34;https://github.com/asberk/matrix-completion-whirlwind&#34; target=&#34;_blank&#34;&gt;repository is available&lt;/a&gt; on GitHub, including the Jupyter notebook, which can be &lt;a href=&#34;https://github.com/asberk/matrix-completion-whirlwind/blob/master/matrix_completion_master.ipynb&#34; target=&#34;_blank&#34;&gt;viewed on GitHub&lt;/a&gt;, as a &lt;a href=&#34;https://gist.github.com/asberk/8c8fd1e7f384df0183b8f01423c07a55&#34; target=&#34;_blank&#34;&gt;gist&lt;/a&gt;, or below.&lt;/p&gt;
+
+&lt;h2 id=&#34;matrix-completion-whirlwind-gist&#34;&gt;Matrix completion whirlwind gist&lt;/h2&gt;
+
+&lt;script type=&#34;text/javascript&#34; src=&#34;http://gist.github.com/8c8fd1e7f384df0183b8f01423c07a55.js&#34;&gt;&lt;/script&gt;
+
+</description>
+    </item>
+    
+  </channel>
+</rss>
