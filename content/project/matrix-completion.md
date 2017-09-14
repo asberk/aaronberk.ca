@@ -14,7 +14,7 @@ summary = "A matrix completion mini-project that I designed for the 2017 BC Data
 image_preview = "matrix-completion.png"
 
 # Optional external URL for project (replaces project detail page).
-external_link = "https://gist.github.com/asberk/8c8fd1e7f384df0183b8f01423c07a55"
+external_link = "https://gist.github.com/asberk/8c8fd1e7f384df0183b8f01423c07a55/de166859b7c590d79bece5a6bbe591a92c13576d"
 
 # Does the project detail page use math formatting?
 math = false
