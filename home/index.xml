@@ -8,7 +8,66 @@
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Aaron Berk</copyright>
     <lastBuildDate>Sun, 23 Apr 2017 23:19:00 +0000</lastBuildDate>
-    <atom:link href="/home/" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="http://aaronberk.ca/home/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>http://aaronberk.ca/home/about/</link>
+      <pubDate>Sun, 23 Apr 2017 23:19:00 +0000</pubDate>
+      
+      <guid>http://aaronberk.ca/home/about/</guid>
+      <description>About I am a third year PhD student in Applied Mathematics at the University of British Columbia being advised by Özgür Yilmaz and Yaniv Plan. My research is in the area of compressed sensing, convex optimization and machine learning &amp;mdash; comprising aspects of high-dimensional probability, applications of random matrix theory, convex analysis and geometric functional analysis.
+During October 2016 &amp;ndash; February 2017 I completed an internship with Awake Labs, where I worked as a data scientist developing online algorithms for performing learning tasks on low-rank high-dimensional physiological data.</description>
+    </item>
+    
+    <item>
+      <title>Publications</title>
+      <link>http://aaronberk.ca/home/publications/</link>
+      <pubDate>Mon, 24 Apr 2017 00:37:00 +0000</pubDate>
+      
+      <guid>http://aaronberk.ca/home/publications/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recent Posts</title>
+      <link>http://aaronberk.ca/home/posts/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://aaronberk.ca/home/posts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>http://aaronberk.ca/home/projects/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://aaronberk.ca/home/projects/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>T.A.</title>
+      <link>http://aaronberk.ca/home/teaching/</link>
+      <pubDate>Mon, 24 Apr 2017 00:10:00 +0000</pubDate>
+      
+      <guid>http://aaronberk.ca/home/teaching/</guid>
+      <description>I am currently the workshop TA for Probability, Data Wrangling and Supervised learning for the 2017 UBC MDS program.
+Previously, I was co-organizer and workshop TA for the 2017 BC Data Science workshop.
+ ODEs (UBC Math 253, 2016) Engineering Vector Calculus (UBC Math 264, 2016) Calculus I (UBC Math 100, 2015) Mathematics for Biology Students (U of T Math 170, 2013&amp;ndash;2014) Engineering Vector Calculus (McMaster Math 2ZZ3, 2012 &amp;amp; 2013) Calculus I (McMaster Math 1X03, 2012)  </description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>http://aaronberk.ca/home/contact/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://aaronberk.ca/home/contact/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

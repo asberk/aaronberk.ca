@@ -11,6 +11,33 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Resource Links</title>
+      <link>http://aaronberk.ca/post/resource-links/</link>
+      <pubDate>Sun, 11 Mar 2018 14:35:47 -0700</pubDate>
+      
+      <guid>http://aaronberk.ca/post/resource-links/</guid>
+      <description>
+
+&lt;h1 id=&#34;links-to-helpful-resources&#34;&gt;Links to helpful resources&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;A &lt;a href=&#34;https://www.youtube.com/playlist?list=PL5EvFKC69QIyRLFuxWRnH6hIw6e1-bBXB&#34; target=&#34;_blank&#34;&gt;42 video YouTube series&lt;/a&gt; by &amp;ldquo;the guy who wrote the Matlab function \&amp;ldquo;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;blog-likes-that-i-think-are-good&#34;&gt;Blog-likes that I think are good&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://terrytao.wordpress.com/&#34; target=&#34;_blank&#34;&gt;Terry Tao&amp;rsquo;s blog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.scottaaronson.com/blog/&#34; target=&#34;_blank&#34;&gt;Shtetl-Optimized&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Timothy &lt;a href=&#34;https://gowers.wordpress.com/&#34; target=&#34;_blank&#34;&gt;Gowers&amp;rsquo;s Weblog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://varianceexplained.org/posts/&#34; target=&#34;_blank&#34;&gt;Variance Explained&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://opinionator.blogs.nytimes.com/author/steven-strogatz/&#34; target=&#34;_blank&#34;&gt;Steven Strogatz&lt;/a&gt; in the New York Times.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://undocumentedmatlab.com/&#34; target=&#34;_blank&#34;&gt;Undocumented Matlab&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Matrix Completion Whirlwind</title>
       <link>http://aaronberk.ca/post/matrix-completion-whirlwind/</link>
       <pubDate>Thu, 14 Sep 2017 11:47:47 -0700</pubDate>

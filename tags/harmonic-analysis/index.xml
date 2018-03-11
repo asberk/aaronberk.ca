@@ -8,7 +8,9 @@
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Aaron Berk</copyright>
     <lastBuildDate>Sat, 12 Aug 2017 20:49:35 -0700</lastBuildDate>
-    <atom:link href="/tags/harmonic-analysis/" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="http://aaronberk.ca/tags/harmonic-analysis/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title></title>

@@ -8,7 +8,9 @@
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Aaron Berk</copyright>
     <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/tags/" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="http://aaronberk.ca/tags/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Content tagged as &#39;Academic&#39;</title>
@@ -16,8 +18,7 @@
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
       <guid>http://aaronberk.ca/tags/academic/</guid>
-      <description>&lt;p&gt;Here is a list of all the content that has been tagged as &lt;em&gt;academic&lt;/em&gt;.&lt;/p&gt;
-</description>
+      <description>Here is a list of all the content that has been tagged as academic.</description>
     </item>
     
     <item>
@@ -143,6 +144,96 @@
       <pubDate>Mon, 24 Apr 2017 00:00:00 +0000</pubDate>
       
       <guid>http://aaronberk.ca/tags/littlewood/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Machine Learning</title>
+      <link>http://aaronberk.ca/tags/machine-learning/</link>
+      <pubDate>Tue, 12 Sep 2017 21:03:04 -0700</pubDate>
+      
+      <guid>http://aaronberk.ca/tags/machine-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multi Scale</title>
+      <link>http://aaronberk.ca/tags/multi-scale/</link>
+      <pubDate>Mon, 24 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://aaronberk.ca/tags/multi-scale/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multiscale</title>
+      <link>http://aaronberk.ca/tags/multiscale/</link>
+      <pubDate>Mon, 24 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://aaronberk.ca/tags/multiscale/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Paley</title>
+      <link>http://aaronberk.ca/tags/paley/</link>
+      <pubDate>Mon, 24 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://aaronberk.ca/tags/paley/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pde</title>
+      <link>http://aaronberk.ca/tags/pde/</link>
+      <pubDate>Mon, 24 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://aaronberk.ca/tags/pde/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Processing</title>
+      <link>http://aaronberk.ca/tags/processing/</link>
+      <pubDate>Mon, 24 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://aaronberk.ca/tags/processing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sensing</title>
+      <link>http://aaronberk.ca/tags/sensing/</link>
+      <pubDate>Mon, 24 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://aaronberk.ca/tags/sensing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Signal Processing</title>
+      <link>http://aaronberk.ca/tags/signal-processing/</link>
+      <pubDate>Sat, 12 Aug 2017 20:49:35 -0700</pubDate>
+      
+      <guid>http://aaronberk.ca/tags/signal-processing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Spectral</title>
+      <link>http://aaronberk.ca/tags/spectral/</link>
+      <pubDate>Mon, 24 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://aaronberk.ca/tags/spectral/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Stability</title>
+      <link>http://aaronberk.ca/tags/stability/</link>
+      <pubDate>Mon, 24 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://aaronberk.ca/tags/stability/</guid>
       <description></description>
     </item>
     

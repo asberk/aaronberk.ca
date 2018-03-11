@@ -8,7 +8,9 @@
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Aaron Berk</copyright>
     <lastBuildDate>Tue, 12 Sep 2017 20:59:02 -0700</lastBuildDate>
-    <atom:link href="/tags/data-science/" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="http://aaronberk.ca/tags/data-science/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Matrix Completion</title>
@@ -25,86 +27,9 @@
       <pubDate>Tue, 12 Sep 2017 19:47:28 -0700</pubDate>
       
       <guid>http://aaronberk.ca/post/bcdata-workshop-2017/</guid>
-      <description>
-
-&lt;h1 id=&#34;summary&#34;&gt;Summary&lt;/h1&gt;
-
-&lt;p&gt;This is a brief summary and some incomplete reflections from my time as the workshop TA for the 2017 BC Data Science Workshop.&lt;/p&gt;
-
-&lt;h2 id=&#34;about&#34;&gt;About&lt;/h2&gt;
-
-&lt;p&gt;The &lt;a href=&#34;http://workshop.bcdata.ca&#34; target=&#34;_blank&#34;&gt;BC Data Science&lt;/a&gt; workshop was hosted August 9 &amp;ndash; 25 in downtown Vancouver at UBC Robson Square, co-organized by myself, Brian Wetton and Lee Rippon from the IAM, with support from PIMS and SFU Mathematics.&lt;/p&gt;
-
-&lt;p&gt;The workshop featured a wide array of material from experts across the west coast, structured into three sections: a 3-day pre-workshop intensive; a week of introductory material; and a week-long data science project led by industry mentors.&lt;/p&gt;
-
-&lt;h2 id=&#34;pre-workshop&#34;&gt;Pre-workshop&lt;/h2&gt;
-
-&lt;p&gt;The pre-workshop was hosted by &lt;a href=&#34;http://www.math.ubc.ca/~pwalls/&#34; target=&#34;_blank&#34;&gt;Patrick Walls&lt;/a&gt; and &lt;a href=&#34;https://www.math.ubc.ca/~wetton/&#34; target=&#34;_blank&#34;&gt;Brian Wetton&lt;/a&gt;. It covered software carpentry material like GitHub, introductory Python and bash, and Jupyter notebooks. It also covered elements of scientific computing and machine learning like gradient descent, principal component analysis, fast Fourier transforms, convex optimization and linear regression.&lt;/p&gt;
-
-&lt;h2 id=&#34;first-week&#34;&gt;First week&lt;/h2&gt;
-
-&lt;p&gt;The mornings of the first week were comprised of introductory lectures by Isabell Konrad (UC Berkeley), Yinshan Zhao (BC Health) and Michael Reid (Amazon). Topics covered elements of machine learning and data science; hypothesis testing and experimental design; and modern software tools (SQL, Hadoop, Fink, Kafka, ElasticSearch, &lt;em&gt;etc.&lt;/em&gt;). In the afternoons, participants completed mini-projects whose focus was related either to the morning material, or to tools that would be integral to a project in the second week. The mini-projects covered regression, neural networks, matrix completion, data wrangling and exploration, and distributed and parallel computing with Apache Spark and tensorflow on GPU.&lt;/p&gt;
-
-&lt;h2 id=&#34;second-week&#34;&gt;Second week&lt;/h2&gt;
-
-&lt;p&gt;The mornings of the second week were comprised of &amp;ldquo;advanced topics&amp;rdquo; &amp;mdash; featuring professors from UBC or SFU, speaking on elements of their research which rely on or develop tools from data science. The rest of the time was devoted to group projects. Teams of 5 &amp;ndash; 7 worked on projects brought by industry mentors whose solutions would feature elements of data science. This included two kinds of image processing; nonlinear function approximation for video compression bitrate analysis; deep neural networks for genetics research; and analytics from vehicle time series messages.&lt;/p&gt;
-
-&lt;h1 id=&#34;opportunities-and-challenges&#34;&gt;Opportunities and challenges&lt;/h1&gt;
-
-&lt;h2 id=&#34;my-role-as-ta&#34;&gt;My role as TA&lt;/h2&gt;
-
-&lt;p&gt;It was most rewarding to learn how to think in different modes with
-teams of diverse individuals working on very diverse projects. One
-evening, I got to help create an interpretable way to balance highly
-imbalanced data; the next morning I had to help design a way to train
-a deep model using images on a &lt;a href=&#34;https://github.com/bcdataca/bcsa-bcdata&#34; target=&#34;_blank&#34;&gt;remote
-server&lt;/a&gt;. After that, I
-contributed to a brainstorming session on how to &lt;a href=&#34;https://gist.github.com/asberk/1340166f2aa1b93607dae8645f4f9fb7&#34; target=&#34;_blank&#34;&gt;best cluster
-data&lt;/a&gt;
-that was too big for memory. In general, I got to contribute ideas for
-project strategies, available software tools, and design/algorithm
-troubleshooting.&lt;/p&gt;
-
-&lt;h2 id=&#34;designing-mini-projects&#34;&gt;Designing mini-projects&lt;/h2&gt;
-
-&lt;p&gt;An unintended consequence of the workshop saw me designing three of the five mini-projects in the first week.&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/bcdataca/workshop-content/tree/master/1-first-week/mini-projects/2-matrix-completion&#34; target=&#34;_blank&#34;&gt;Matrix completion&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/bcdataca/workshop-content/tree/master/1-first-week/mini-projects/3-neural-networks&#34; target=&#34;_blank&#34;&gt;Neural networks in keras&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/bcdataca/workshop-content/tree/master/1-first-week/mini-projects/5-spark-aws&#34; target=&#34;_blank&#34;&gt;Parallel and distributed computing with &lt;code&gt;pyspark&lt;/code&gt; and &lt;code&gt;tensorflow-gpu&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Designing three of these (not surprisingly) took a very immense amount of effort. Even still, there are places where I feel the work remains unpolished. Nevertheless, designing these was a great opportunity to develop skills at communicating new concepts in an immersive, interactive way.&lt;/p&gt;
-
-&lt;h2 id=&#34;project-duration&#34;&gt;Project duration&lt;/h2&gt;
-
-&lt;p&gt;We may have imposed too great a constraint on the duration for which the teams were able to work on their &lt;a href=&#34;http://workshop.bcdata.ca/2017/#projects&#34; target=&#34;_blank&#34;&gt;industry projects&lt;/a&gt;. Effectively, they received their projects Monday afternoon; had advanced lectures through the week; and had to present on Friday afternoon. It&amp;rsquo;s clear that longer duration would have indeed allowed significantly greater progress on the teams&amp;rsquo; projects. That being said, each of the teams made an impressive amount of progress that will be discussed below.&lt;/p&gt;
-
-&lt;h1 id=&#34;about-the-projects&#34;&gt;About the projects&lt;/h1&gt;
-
-&lt;h2 id=&#34;data-driven-modelling-of-video-compression&#34;&gt;Data-driven modelling of video compression&lt;/h2&gt;
-
-&lt;p&gt;This project had aggregate camera data and sought to use this data to determine a function that could accurately predict the bitrate for given camera settings. The group tried several convex optimization approaches, and settled on a particular flavour of random forest, boasting accuracy well above what is considered &amp;ldquo;industry standard&amp;rdquo;.&lt;/p&gt;
-
-&lt;h2 id=&#34;risk-based-platform-for-accdient-prevention&#34;&gt;Risk-based platform for accdient prevention&lt;/h2&gt;
-
-&lt;p&gt;I helped to design a skeleton for this project, wherein the team would take raw photo data from BC Safety Authority inspections and use it to predict compliant and non-compliant objects using a combination approach of active learning and transfer learning. The training would have be performed by downloading batches of images from an AWS S3 bucket, since there were too many images to fit on the VM disk we were using. It is likely that such a model will require more complex structure than a standard image recognition ConvNet, such as topic modelling or LDA.&lt;/p&gt;
-
-&lt;p&gt;The team reduced the complexity of this task by classifying images of flowers using a transfer learning approach. In this approach, these used bottlenecking to generate feature vectors by running the images through the bottom several layers of a VGG16 network. Then, they trained a binary classifier on this markedly smaller feature space to discriminate between species of flowers. This particular approach has immediate generalization potential to the more complex problem of discerning compliant and non-compliant objects from inspection photos.&lt;/p&gt;
-
-&lt;h2 id=&#34;elucidating-enhancer-promoter-gene-expression-using-convnets&#34;&gt;Elucidating enhancer-promoter gene expression using ConvNets&lt;/h2&gt;
-
-&lt;p&gt;This group developed a convolutional neural network whose first layer filters, after [agnostic] training, were composed of significant and known gene promoter regions. This convolutional neural network was designed to predict the efficacy of gene expression for particular enhancer-promoter pairs. This team made significant progress in the time they had, and made steps toward a reverse-complement invariant machine learning model.&lt;/p&gt;
-
-&lt;h2 id=&#34;data-insights-from-vehicle-time-series-messages&#34;&gt;Data insights from vehicle time series messages&lt;/h2&gt;
-
-&lt;p&gt;The goal of this project was to learn novel insights from vehicle time series messages, logged by in-car devices that record the car&amp;rsquo;s state, position, etc. This team made significant progress toward the problem of discriminating multiple drivers of the same vehicle. For this task, the team used Bayesian methods and k-means.&lt;/p&gt;
-
-&lt;h2 id=&#34;high-resolution-shoreline-data-for-flood-protection-and-environmental-conservation&#34;&gt;High-resolution shoreline data for flood protection and environmental conservation&lt;/h2&gt;
-
-&lt;p&gt;This project sought to classify land type from photogrammetric drone image data. The data was in the format of an unstructured sparse point cloud, listing colour as well as latitude, longitude and elevation. The team took the approach of looking at local variation in elevation, as well as point colour. The team used an out-of-memory mini-batch k-means algorithm which clustered features generated from a nearest neighbours tree. My own approach to this problem can be &lt;a href=&#34;https://gist.github.com/asberk/1340166f2aa1b93607dae8645f4f9fb7&#34; target=&#34;_blank&#34;&gt;seen here&lt;/a&gt;.&lt;/p&gt;
-</description>
+      <description>Summary This is a brief summary and some incomplete reflections from my time as the workshop TA for the 2017 BC Data Science Workshop.
+About The BC Data Science workshop was hosted August 9 &amp;ndash; 25 in downtown Vancouver at UBC Robson Square, co-organized by myself, Brian Wetton and Lee Rippon from the IAM, with support from PIMS and SFU Mathematics.
+The workshop featured a wide array of material from experts across the west coast, structured into three sections: a 3-day pre-workshop intensive; a week of introductory material; and a week-long data science project led by industry mentors.</description>
     </item>
     
     <item>
