@@ -1,5 +1,9 @@
 +++
 title = "Resource Links"
+summary = """
+A kind of repository for some links to blogs and resources that I've found useful over the years.
+"""
+
 date = 2018-03-11T14:35:47-07:00
 draft = false
 
@@ -11,7 +15,7 @@ categories = []
 # Featured image
 # Place your image in the `static/img/` folder and reference its filename below, e.g. `image = "example.jpg"`.
 [header]
-image = "img/open-book.jpg"
+image = "open-book.jpg"
 caption = "Source: https://www.pexels.com/photo/book-book-pages-browse-education-267586/"
 
 +++
