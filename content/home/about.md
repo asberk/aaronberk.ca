@@ -19,7 +19,7 @@ weight = 1
 
 # List your qualifications (such as academic degrees).
 [[education.courses]]
-  course = "PhD Student, Applied Mathematics"
+  course = "PhD Candidate, Applied Mathematics"
   institution = "University of British Columbia"
 
 [[education.courses]]
@@ -36,7 +36,7 @@ weight = 1
 
 # About
 
-I am a third year PhD student in Applied Mathematics at the University of
+I am a PhD candidate in Applied Mathematics at the University of
 British Columbia being advised by
 [Özgür Yilmaz](http://www.math.ubc.ca/~oyilmaz/) and
 [Yaniv Plan](http://www.yanivplan.com/). My research is in the area of
@@ -48,7 +48,7 @@ matrix theory, convex analysis and geometric functional analysis.
 
 During October 2016 &ndash; February 2017 I completed an internship with
 [Awake Labs](http://www.awakelabs.com/), where I worked as a data scientist
-developing online algorithms for performing learning tasks on low-rank
+developing online algorithms for performing learning tasks on structured
 high-dimensional physiological data.
 
 I completed my MSc Mathematics in August 2014 at the University of Toronto. My

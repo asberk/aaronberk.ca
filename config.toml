@@ -20,7 +20,7 @@ defaultContentLanguageInSubdir = false
 
 [params]
   name = "Aaron Berk"
-  role = "PhD Student in Applied Mathematics"
+  role = "PhD Candidate in Applied Mathematics"
   organization = "University of British Columbia"
   organization_url = ""
   avatar = "portrait.png"
