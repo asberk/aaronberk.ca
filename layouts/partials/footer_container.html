@@ -2,7 +2,7 @@
   <div class="container">
     <p class="powered-by">
 
-      {{ with .Site.Copyright }} &middot; {{ . | markdownify}} &middot; {{ end }}
+      {{ with .Site.Copyright }} {{ . | markdownify}} {{ end }}
 
 
       <span class="pull-right" aria-hidden="true">
