@@ -34,3 +34,4 @@ caption = "Source: https://www.pexels.com/photo/book-book-pages-browse-education
 * [Variance Explained](http://varianceexplained.org/posts/)
 * [Steven Strogatz](https://opinionator.blogs.nytimes.com/author/steven-strogatz/) in the New York Times. 
 * [Undocumented Matlab](http://undocumentedmatlab.com/)
+* [Model fitting and inference for infectious disease dynamics](http://sbfnk.github.io/mfiidd/index.html)
