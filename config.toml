@@ -1,6 +1,6 @@
 baseurl = "http://aaronberk.ca"
 title = "Aaron Berk"
-copyright = "&copy; 2017 Aaron Berk"
+copyright = "&copy; 2017 &ndash; 2018 Aaron Berk"
 theme = "academic"
 enableEmoji = true
 footnotereturnlinkcontents = "<sup>^</sup>"
