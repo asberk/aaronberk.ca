@@ -40,6 +40,7 @@ caption = "Source: https://www.pexels.com/photo/book-book-pages-browse-education
 * [Steven Strogatz](https://opinionator.blogs.nytimes.com/author/steven-strogatz/) in the New York Times. 
 * [Undocumented Matlab](http://undocumentedmatlab.com/)
 * [Model fitting and inference for infectious disease dynamics](http://sbfnk.github.io/mfiidd/index.html)
+* [Image processing is fun!](http://image-processing-is-fun.blogspot.ca/)
 
 # Other
 
