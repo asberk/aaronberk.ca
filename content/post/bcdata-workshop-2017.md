@@ -1,5 +1,5 @@
 +++
-title = "Reflection: the BC Data Science Workshop"
+title = "Reflection: 2017 BC Data Science Workshop"
 summary = """
 A brief summary and some incomplete reflections from my time as the workshop TA for the 2017 BC Data Science workshop. 
 """
@@ -25,7 +25,7 @@ This is a brief summary and some incomplete reflections from my time as the work
 
 ## About
 
-The [BC Data Science](http://workshop.bcdata.ca) workshop was hosted August 9 &ndash; 25 in downtown Vancouver at UBC Robson Square, co-organized by myself, Brian Wetton and Lee Rippon from the IAM, with support from PIMS and SFU Mathematics.
+The [BC Data Workshop](http://workshop.bcdata.ca/2017) was hosted August 9 &ndash; 25 in downtown Vancouver at UBC Robson Square, co-organized by myself, Brian Wetton and Lee Rippon from the IAM, with support from PIMS and SFU Mathematics.
 
 The workshop featured a wide array of material from experts across the west coast, structured into three sections: a 3-day pre-workshop intensive; a week of introductory material; and a week-long data science project led by industry mentors.
 
@@ -61,39 +61,83 @@ troubleshooting.
 
 ## Designing mini-projects
 
-An unintended consequence of the workshop saw me designing three of the five mini-projects in the first week.
+An unintended consequence of the workshop saw me designing three of the five
+mini-projects in the first week.
 
-1. [Matrix completion](https://github.com/bcdataca/workshop-content/tree/master/1-first-week/mini-projects/2-matrix-completion)
-2. [Neural networks in keras](https://github.com/bcdataca/workshop-content/tree/master/1-first-week/mini-projects/3-neural-networks)
-3. [Parallel and distributed computing with `pyspark` and `tensorflow-gpu`](https://github.com/bcdataca/workshop-content/tree/master/1-first-week/mini-projects/5-spark-aws)
+1. [Matrix completion](https://github.com/bcdataca/workshop-content17/tree/master/1-first-week/mini-projects/2-matrix-completion)
+2. [Neural networks in keras](https://github.com/bcdataca/workshop-content17/tree/master/1-first-week/mini-projects/3-neural-networks)
+3. [Parallel and distributed computing with `pyspark` and `tensorflow-gpu`](https://github.com/bcdataca/workshop-content17/tree/master/1-first-week/mini-projects/5-spark-aws)
 
-Designing three of these (not surprisingly) took a very immense amount of effort. Even still, there are places where I feel the work remains unpolished. Nevertheless, designing these was a great opportunity to develop skills at communicating new concepts in an immersive, interactive way.
+Designing these consumed a lot of effort and time - too much given the other
+organizational duties. Consequently, there are places where the work remains
+unpolished. Nevertheless, designing these was a great opportunity to explore how
+to communicate new concepts in an immersive, interactive way.
 
 ## Project duration
 
-We may have imposed too great a constraint on the duration for which the teams were able to work on their [industry projects](http://workshop.bcdata.ca/2017/#projects). Effectively, they received their projects Monday afternoon; had advanced lectures through the week; and had to present on Friday afternoon. It's clear that longer duration would have indeed allowed significantly greater progress on the teams' projects. That being said, each of the teams made an impressive amount of progress that will be discussed below. 
+We may have imposed too great a constraint on the duration for which the teams
+were able to work on their [industry
+projects](http://workshop.bcdata.ca/2017/#projects). Effectively, they received
+their projects Monday afternoon; had advanced lectures through the week; and had
+to present on Friday afternoon. It's clear that longer duration would have
+indeed allowed significantly greater progress on the teams' projects. That being
+said, each of the teams made an impressive amount of progress that will be
+discussed below.
 
 
 # About the projects
 
 ## Data-driven modelling of video compression
 
-This project had aggregate camera data and sought to use this data to determine a function that could accurately predict the bitrate for given camera settings. The group tried several convex optimization approaches, and settled on a particular flavour of random forest, boasting accuracy well above what is considered "industry standard". 
+This project had aggregate camera data and sought to use this data to determine
+a function that could accurately predict the bitrate for given camera
+settings. The group tried several convex optimization approaches, and settled on
+a particular flavour of random forest, boasting accuracy well above what is
+considered "industry standard".
 
 ## Risk-based platform for accdient prevention
 
-I helped to design a skeleton for this project, wherein the team would take raw photo data from BC Safety Authority inspections and use it to predict compliant and non-compliant objects using a combination approach of active learning and transfer learning. The training would have be performed by downloading batches of images from an AWS S3 bucket, since there were too many images to fit on the VM disk we were using. It is likely that such a model will require more complex structure than a standard image recognition ConvNet, such as topic modelling or LDA. 
+I helped to design a skeleton for this project, wherein the team would take raw
+photo data from BC Safety Authority inspections and use it to predict compliant
+and non-compliant objects using a combination approach of active learning and
+transfer learning. The training would have be performed by downloading batches
+of images from an AWS S3 bucket, since there were too many images to fit on the
+VM disk we were using. It is likely that such a model will require more complex
+structure than a standard image recognition ConvNet, such as topic modelling or
+LDA.
 
-The team reduced the complexity of this task by classifying images of flowers using a transfer learning approach. In this approach, these used bottlenecking to generate feature vectors by running the images through the bottom several layers of a VGG16 network. Then, they trained a binary classifier on this markedly smaller feature space to discriminate between species of flowers. This particular approach has immediate generalization potential to the more complex problem of discerning compliant and non-compliant objects from inspection photos. 
+The team reduced the complexity of this task by classifying images of flowers
+using a transfer learning approach. In this approach, these used bottlenecking
+to generate feature vectors by running the images through the bottom several
+layers of a VGG16 network. Then, they trained a binary classifier on this
+markedly smaller feature space to discriminate between species of flowers. This
+particular approach has immediate generalization potential to the more complex
+problem of discerning compliant and non-compliant objects from inspection
+photos.
 
 ## Elucidating enhancer-promoter gene expression using ConvNets
 
-This group developed a convolutional neural network whose first layer filters, after [agnostic] training, were composed of significant and known gene promoter regions. This convolutional neural network was designed to predict the efficacy of gene expression for particular enhancer-promoter pairs. This team made significant progress in the time they had, and made steps toward a reverse-complement invariant machine learning model. 
+This group developed a convolutional neural network whose first layer filters,
+after [agnostic] training, were composed of significant and known gene promoter
+regions. This convolutional neural network was designed to predict the efficacy
+of gene expression for particular enhancer-promoter pairs. This team made
+significant progress in the time they had, and made steps toward a
+reverse-complement invariant machine learning model.
 
 ## Data insights from vehicle time series messages
 
-The goal of this project was to learn novel insights from vehicle time series messages, logged by in-car devices that record the car's state, position, etc. This team made significant progress toward the problem of discriminating multiple drivers of the same vehicle. For this task, the team used Bayesian methods and k-means. 
+The goal of this project was to learn novel insights from vehicle time series
+messages, logged by in-car devices that record the car's state, position,
+etc. This team made significant progress toward the problem of discriminating
+multiple drivers of the same vehicle. For this task, the team used Bayesian
+methods and k-means.
 
 ## High-resolution shoreline data for flood protection and environmental conservation
 
-This project sought to classify land type from photogrammetric drone image data. The data was in the format of an unstructured sparse point cloud, listing colour as well as latitude, longitude and elevation. The team took the approach of looking at local variation in elevation, as well as point colour. The team used an out-of-memory mini-batch k-means algorithm which clustered features generated from a nearest neighbours tree. My own approach to this problem can be [seen here](https://gist.github.com/asberk/1340166f2aa1b93607dae8645f4f9fb7). 
+This project sought to classify land type from photogrammetric drone image
+data. The data was in the format of an unstructured sparse point cloud, listing
+colour as well as latitude, longitude and elevation. The team took the approach
+of looking at local variation in elevation, as well as point colour. The team
+used an out-of-memory mini-batch k-means algorithm which clustered features
+generated from a nearest neighbours tree. My own approach to this problem can be
+[seen here](https://gist.github.com/asberk/1340166f2aa1b93607dae8645f4f9fb7).
