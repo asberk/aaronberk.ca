@@ -1,7 +1,7 @@
 +++
 title = "Reflection: 2018 BC Data Science Workshop"
 date = 2018-06-27T10:22:17-07:00
-draft = true
+draft = false
 
 summary = """
 A brief summary and some incomplete reflections from the 2018 BC Data Science workshop. 
