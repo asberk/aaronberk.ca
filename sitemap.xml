@@ -5,6 +5,15 @@
     
     <url>
     
+      <loc>http://aaronberk.ca/project/hugo-tutorial/</loc>
+      <lastmod>2018-10-11T00:00:00-07:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://aaronberk.ca/post/bcdata-workshop-2018/</loc>
       <lastmod>2018-06-27T10:22:17-07:00</lastmod>
     </url>
@@ -234,8 +243,8 @@
     
     <url>
     
-      <loc>http://aaronberk.ca/categories/compressed-sensing/</loc>
-      <lastmod>2017-09-14T11:47:47-07:00</lastmod>
+      <loc>http://aaronberk.ca/tags/compressed-sensing/</loc>
+      <lastmod>2017-09-12T20:59:02-07:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -244,8 +253,8 @@
     
     <url>
     
-      <loc>http://aaronberk.ca/tags/compressed-sensing/</loc>
-      <lastmod>2017-09-12T20:59:02-07:00</lastmod>
+      <loc>http://aaronberk.ca/categories/compressed-sensing/</loc>
+      <lastmod>2017-09-14T11:47:47-07:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -274,8 +283,8 @@
     
     <url>
     
-      <loc>http://aaronberk.ca/categories/data-science/</loc>
-      <lastmod>2017-09-14T11:47:47-07:00</lastmod>
+      <loc>http://aaronberk.ca/tags/data-science/</loc>
+      <lastmod>2018-06-27T10:22:17-07:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -284,8 +293,8 @@
     
     <url>
     
-      <loc>http://aaronberk.ca/tags/data-science/</loc>
-      <lastmod>2018-06-27T10:22:17-07:00</lastmod>
+      <loc>http://aaronberk.ca/categories/data-science/</loc>
+      <lastmod>2017-09-14T11:47:47-07:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -306,6 +315,16 @@
     
       <loc>http://aaronberk.ca/tags/gist/</loc>
       <lastmod>2017-09-12T18:46:08-07:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://aaronberk.ca/tags/github/</loc>
+      <lastmod>2018-10-11T00:00:00-07:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -346,6 +365,16 @@
     
       <loc>http://aaronberk.ca/tags/harmonic-analysis/</loc>
       <lastmod>2017-08-12T20:49:35-07:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://aaronberk.ca/tags/hugo/</loc>
+      <lastmod>2018-10-11T00:00:00-07:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -455,7 +484,7 @@
     <url>
     
       <loc>http://aaronberk.ca/project/</loc>
-      <lastmod>2017-09-12T21:03:04-07:00</lastmod>
+      <lastmod>2018-10-11T00:00:00-07:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -524,8 +553,28 @@
     
     <url>
     
+      <loc>http://aaronberk.ca/tags/tutorial/</loc>
+      <lastmod>2018-10-11T00:00:00-07:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://aaronberk.ca/categories/tutorial/</loc>
       <lastmod>2017-09-14T11:47:47-07:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://aaronberk.ca/tags/website/</loc>
+      <lastmod>2018-10-11T00:00:00-07:00</lastmod>
       <priority>0</priority>
     </url>
     

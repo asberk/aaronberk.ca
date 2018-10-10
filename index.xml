@@ -11,6 +11,63 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Host a website on GitHub with Hugo</title>
+      <link>http://aaronberk.ca/project/hugo-tutorial/</link>
+      <pubDate>Thu, 11 Oct 2018 00:00:00 -0700</pubDate>
+      
+      <guid>http://aaronberk.ca/project/hugo-tutorial/</guid>
+      <description>
+
+&lt;p&gt;16:00 &amp;ndash; 17:00, Thursday 11 October 2018, LSK 121.&lt;/p&gt;
+
+&lt;h3 id=&#34;description&#34;&gt;Description&lt;/h3&gt;
+
+&lt;p&gt;Learn how to get up and running with &lt;a href=&#34;https://gohugo.io/&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt;, a popular
+open-source static site generator that&amp;rsquo;s fast and easy to use. Attendees can
+follow a live coding session to learn how to generate and customize a brand new
+Hugo website. We&amp;rsquo;ll learn how to host the website from a GitHub repository using
+GitHub Pages. Time and interest permitting, we&amp;rsquo;ll explore how to host the site
+on a custom domain (like &lt;a href=&#34;http://asberk.ca&#34; target=&#34;_blank&#34;&gt;asberk.ca&lt;/a&gt;). This tutorial is the
+perfect starting point for breaking away from the frumpy academic webpages of
+yore, and attracting those shiny impressions that&amp;rsquo;ll make your Google Analytics
+page sing.&lt;/p&gt;
+
+&lt;h3 id=&#34;requirements&#34;&gt;Requirements&lt;/h3&gt;
+
+&lt;p&gt;To be completed by attendees before the tutorial:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://gohugo.io/getting-started/installing/&#34; target=&#34;_blank&#34;&gt;Install hugo&lt;/a&gt; (e.g., using
+&lt;code&gt;brew install hugo&lt;/code&gt;). If installed correctly, running &lt;code&gt;hugo version&lt;/code&gt; in
+Terminal shouldn&amp;rsquo;t return an error.&lt;/li&gt;
+&lt;li&gt;Have a &lt;a href=&#34;https://github.com/&#34; target=&#34;_blank&#34;&gt;GitHub account&lt;/a&gt; (it&amp;rsquo;s free to sign up)&lt;/li&gt;
+&lt;li&gt;Ensure &lt;a href=&#34;https://git-scm.com/downloads&#34; target=&#34;_blank&#34;&gt;git is installed&lt;/a&gt;. If installed
+correctly, running &lt;code&gt;git --version&lt;/code&gt; in Terminal shouldn&amp;rsquo;t return an error.&lt;/li&gt;
+&lt;li&gt;(Optional) Have an account with a domain registrar (e.g. &lt;a href=&#34;https://domains.google/&#34; target=&#34;_blank&#34;&gt;Google
+Domains&lt;/a&gt;, &lt;a href=&#34;https://www.namecheap.com/&#34; target=&#34;_blank&#34;&gt;Namecheap&lt;/a&gt;,
+&lt;a href=&#34;https://cira.ca/&#34; target=&#34;_blank&#34;&gt;CIRA&lt;/a&gt;, etc.)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;disclaimer&#34;&gt;Disclaimer&lt;/h3&gt;
+
+&lt;p&gt;This tutorial claims absolutely no originality. It is merely a curation of the
+four articles below, designed so that virtually anyone in attendance can get a
+website up and running in one hour.&lt;/p&gt;
+
+&lt;p&gt;For more details than what&amp;rsquo;s covered in the tutorial, Hugo offers a &lt;a href=&#34;https://gohugo.io/getting-started/quick-start/&#34; target=&#34;_blank&#34;&gt;Quickstart
+Guide&lt;/a&gt; and a post covering
+&lt;a href=&#34;https://gohugo.io/getting-started/usage/&#34; target=&#34;_blank&#34;&gt;Basic Usage&lt;/a&gt;. In addition, there is
+an article about &lt;a href=&#34;https://gohugo.io/hosting-and-deployment/hosting-on-github/&#34; target=&#34;_blank&#34;&gt;hosting on
+GitHub&lt;/a&gt; and about
+&lt;a href=&#34;https://gohugo.io/hosting-and-deployment/hosting-on-github/#use-a-custom-domain&#34; target=&#34;_blank&#34;&gt;hosting on a custom
+domain&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Notes for this presentation will be made available on this page after the
+tutorial.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Reflection: 2018 BC Data Science Workshop</title>
       <link>http://aaronberk.ca/post/bcdata-workshop-2018/</link>
       <pubDate>Wed, 27 Jun 2018 10:22:17 -0700</pubDate>
@@ -428,16 +485,6 @@ generated from a nearest neighbours tree. My own approach to this problem can be
       
       <guid>http://aaronberk.ca/project/iam-retreat-2017/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Example Talk</title>
-      <link>http://aaronberk.ca/talk/example-talk/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://aaronberk.ca/talk/example-talk/</guid>
-      <description>&lt;p&gt;Embed your slides or video here using &lt;a href=&#34;https://gcushen.github.io/hugo-academic-demo/post/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;shortcodes&lt;/a&gt;. Further details can easily be added using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
-</description>
     </item>
     
   </channel>
