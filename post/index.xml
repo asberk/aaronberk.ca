@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Aaron Berk</title>
-    <link>http://aaronberk.ca/post/</link>
+    <link>https://aaronberk.ca/post/</link>
     <description>Recent content in Posts on Aaron Berk</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018 Aaron Berk</copyright>
     <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://aaronberk.ca/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://aaronberk.ca/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Reflection: 2018 BC Data Science Workshop</title>
-      <link>http://aaronberk.ca/post/bcdata-workshop-2018/</link>
+      <link>https://aaronberk.ca/post/bcdata-workshop-2018/</link>
       <pubDate>Wed, 27 Jun 2018 10:22:17 -0700</pubDate>
       
-      <guid>http://aaronberk.ca/post/bcdata-workshop-2018/</guid>
+      <guid>https://aaronberk.ca/post/bcdata-workshop-2018/</guid>
       <description>Summary This is a summary and reflection from co-organizing the second iteration of the BC Data Workshop.
 About The BC Data Workshop was hosted June 4 &amp;ndash; 8 on the UBC campus, co-organized with the IAM Director Brian Wetton, supported by PIMS.
 The workshop featured a wide array of problem material from industry in the lower mainland, channeled as week-long data science projects led by industry mentors.
@@ -26,19 +26,19 @@ Projects Project 1: SSR Mining Participants analyzed over 50 GB of data for part
     
     <item>
       <title>Resource Links</title>
-      <link>http://aaronberk.ca/post/resource-links/</link>
+      <link>https://aaronberk.ca/post/resource-links/</link>
       <pubDate>Sun, 11 Mar 2018 14:35:47 -0700</pubDate>
       
-      <guid>http://aaronberk.ca/post/resource-links/</guid>
+      <guid>https://aaronberk.ca/post/resource-links/</guid>
       <description>Links to helpful resources  A 42 video YouTube series by &amp;ldquo;the guy who wrote the Matlab function \&amp;ldquo;. A YouTube series on Conditional Random Fields by Hugo Larochelle. One of myriad Medium lists of ML resources. One more with a link to ≥ 150 tutorials DL book DL.net reading list  Blog-likes that I think are good  Terry Tao&amp;rsquo;s blog Shtetl-Optimized Timothy Gowers&amp;rsquo;s Weblog Variance Explained Steven Strogatz in the New York Times.</description>
     </item>
     
     <item>
       <title>Matrix Completion Whirlwind</title>
-      <link>http://aaronberk.ca/post/matrix-completion-whirlwind/</link>
+      <link>https://aaronberk.ca/post/matrix-completion-whirlwind/</link>
       <pubDate>Thu, 14 Sep 2017 11:47:47 -0700</pubDate>
       
-      <guid>http://aaronberk.ca/post/matrix-completion-whirlwind/</guid>
+      <guid>https://aaronberk.ca/post/matrix-completion-whirlwind/</guid>
       <description> Summary I recently wrote some basic Python functions for a matrix completion tutorial, covering elementary theory and a couple popular convex optimization methods for matrix completion.
 The repository is available on GitHub, including the Jupyter notebook, which can be viewed on GitHub, as a gist, or below.
 Matrix completion whirlwind gist  </description>
@@ -46,10 +46,10 @@ Matrix completion whirlwind gist  </description>
     
     <item>
       <title>Reflection: 2017 BC Data Science Workshop</title>
-      <link>http://aaronberk.ca/post/bcdata-workshop-2017/</link>
+      <link>https://aaronberk.ca/post/bcdata-workshop-2017/</link>
       <pubDate>Tue, 12 Sep 2017 19:47:28 -0700</pubDate>
       
-      <guid>http://aaronberk.ca/post/bcdata-workshop-2017/</guid>
+      <guid>https://aaronberk.ca/post/bcdata-workshop-2017/</guid>
       <description>Summary This is a brief summary and some incomplete reflections from my time as the workshop TA for the 2017 BC Data Science Workshop.
 About The BC Data Workshop was hosted August 9 &amp;ndash; 25 in downtown Vancouver at UBC Robson Square, co-organized by myself, Brian Wetton and Lee Rippon from the IAM, with support from PIMS and SFU Mathematics.
 The workshop featured a wide array of material from experts across the west coast, structured into three sections: a 3-day pre-workshop intensive; a week of introductory material; and a week-long data science project led by industry mentors.</description>

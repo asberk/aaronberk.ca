@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Processing on Aaron Berk</title>
-    <link>http://aaronberk.ca/tags/processing/</link>
+    <link>https://aaronberk.ca/tags/processing/</link>
     <description>Recent content in Processing on Aaron Berk</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018 Aaron Berk</copyright>
     <lastBuildDate>Mon, 24 Apr 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://aaronberk.ca/tags/processing/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://aaronberk.ca/tags/processing/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>MSc project submission</title>
-      <link>http://aaronberk.ca/project/msc-proj/</link>
+      <link>https://aaronberk.ca/project/msc-proj/</link>
       <pubDate>Mon, 24 Apr 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://aaronberk.ca/project/msc-proj/</guid>
+      <guid>https://aaronberk.ca/project/msc-proj/</guid>
       <description></description>
     </item>
     

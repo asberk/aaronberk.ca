@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Publications on Aaron Berk</title>
-    <link>http://aaronberk.ca/publication/</link>
+    <link>https://aaronberk.ca/publication/</link>
     <description>Recent content in Publications on Aaron Berk</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018 Aaron Berk</copyright>
     <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://aaronberk.ca/publication/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://aaronberk.ca/publication/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Enrichment map profiling of the cancer invasion front suggests regulation of colorectal cancer progression by the bone morphogenetic protein antagonist, gremlin-1</title>
-      <link>http://aaronberk.ca/publication/grem-1/</link>
+      <link>https://aaronberk.ca/publication/grem-1/</link>
       <pubDate>Mon, 02 Sep 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://aaronberk.ca/publication/grem-1/</guid>
+      <guid>https://aaronberk.ca/publication/grem-1/</guid>
       <description></description>
     </item>
     

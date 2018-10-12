@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Aaron Berk on Aaron Berk</title>
-    <link>http://aaronberk.ca/</link>
+    <link>https://aaronberk.ca/</link>
     <description>Recent content in Aaron Berk on Aaron Berk</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -12,10 +12,10 @@
     
     <item>
       <title>Host a website on GitHub with Hugo</title>
-      <link>http://aaronberk.ca/project/hugo-tutorial/</link>
+      <link>https://aaronberk.ca/project/hugo-tutorial/</link>
       <pubDate>Thu, 11 Oct 2018 00:00:00 -0700</pubDate>
       
-      <guid>http://aaronberk.ca/project/hugo-tutorial/</guid>
+      <guid>https://aaronberk.ca/project/hugo-tutorial/</guid>
       <description>
 
 &lt;p&gt;16:00 &amp;ndash; 17:00, Thursday 11 October 2018, LSK 121.&lt;/p&gt;
@@ -163,10 +163,10 @@ that much power. 🐧&lt;/li&gt;
     
     <item>
       <title>Reflection: 2018 BC Data Science Workshop</title>
-      <link>http://aaronberk.ca/post/bcdata-workshop-2018/</link>
+      <link>https://aaronberk.ca/post/bcdata-workshop-2018/</link>
       <pubDate>Wed, 27 Jun 2018 10:22:17 -0700</pubDate>
       
-      <guid>http://aaronberk.ca/post/bcdata-workshop-2018/</guid>
+      <guid>https://aaronberk.ca/post/bcdata-workshop-2018/</guid>
       <description>
 
 &lt;h1 id=&#34;summary&#34;&gt;Summary&lt;/h1&gt;
@@ -292,10 +292,10 @@ availability.&lt;/p&gt;
     
     <item>
       <title>Resource Links</title>
-      <link>http://aaronberk.ca/post/resource-links/</link>
+      <link>https://aaronberk.ca/post/resource-links/</link>
       <pubDate>Sun, 11 Mar 2018 14:35:47 -0700</pubDate>
       
-      <guid>http://aaronberk.ca/post/resource-links/</guid>
+      <guid>https://aaronberk.ca/post/resource-links/</guid>
       <description>
 
 &lt;h1 id=&#34;links-to-helpful-resources&#34;&gt;Links to helpful resources&lt;/h1&gt;
@@ -335,10 +335,10 @@ Random Fields by Hugo Larochelle.&lt;/li&gt;
     
     <item>
       <title>Matrix Completion Whirlwind</title>
-      <link>http://aaronberk.ca/post/matrix-completion-whirlwind/</link>
+      <link>https://aaronberk.ca/post/matrix-completion-whirlwind/</link>
       <pubDate>Thu, 14 Sep 2017 11:47:47 -0700</pubDate>
       
-      <guid>http://aaronberk.ca/post/matrix-completion-whirlwind/</guid>
+      <guid>https://aaronberk.ca/post/matrix-completion-whirlwind/</guid>
       <description>
 
 &lt;h2 id=&#34;summary&#34;&gt;Summary&lt;/h2&gt;
@@ -356,10 +356,10 @@ Random Fields by Hugo Larochelle.&lt;/li&gt;
     
     <item>
       <title>Neural Networks in Keras</title>
-      <link>http://aaronberk.ca/project/neural-networks-keras/</link>
+      <link>https://aaronberk.ca/project/neural-networks-keras/</link>
       <pubDate>Tue, 12 Sep 2017 21:03:04 -0700</pubDate>
       
-      <guid>http://aaronberk.ca/project/neural-networks-keras/</guid>
+      <guid>https://aaronberk.ca/project/neural-networks-keras/</guid>
       <description>
 
 &lt;h2 id=&#34;description&#34;&gt;Description&lt;/h2&gt;
@@ -370,19 +370,19 @@ Random Fields by Hugo Larochelle.&lt;/li&gt;
     
     <item>
       <title>Matrix Completion</title>
-      <link>http://aaronberk.ca/project/matrix-completion/</link>
+      <link>https://aaronberk.ca/project/matrix-completion/</link>
       <pubDate>Tue, 12 Sep 2017 20:59:02 -0700</pubDate>
       
-      <guid>http://aaronberk.ca/project/matrix-completion/</guid>
+      <guid>https://aaronberk.ca/project/matrix-completion/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Reflection: 2017 BC Data Science Workshop</title>
-      <link>http://aaronberk.ca/post/bcdata-workshop-2017/</link>
+      <link>https://aaronberk.ca/post/bcdata-workshop-2017/</link>
       <pubDate>Tue, 12 Sep 2017 19:47:28 -0700</pubDate>
       
-      <guid>http://aaronberk.ca/post/bcdata-workshop-2017/</guid>
+      <guid>https://aaronberk.ca/post/bcdata-workshop-2017/</guid>
       <description>
 
 &lt;h1 id=&#34;summary&#34;&gt;Summary&lt;/h1&gt;
@@ -511,73 +511,73 @@ generated from a nearest neighbours tree. My own approach to this problem can be
     
     <item>
       <title>Land type clustering from photogrammetric drone image data</title>
-      <link>http://aaronberk.ca/project/bcdata-smartshores/</link>
+      <link>https://aaronberk.ca/project/bcdata-smartshores/</link>
       <pubDate>Tue, 12 Sep 2017 18:53:46 -0700</pubDate>
       
-      <guid>http://aaronberk.ca/project/bcdata-smartshores/</guid>
+      <guid>https://aaronberk.ca/project/bcdata-smartshores/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Video Compression Analysis</title>
-      <link>http://aaronberk.ca/project/bcdata-midvale-take1/</link>
+      <link>https://aaronberk.ca/project/bcdata-midvale-take1/</link>
       <pubDate>Tue, 12 Sep 2017 18:50:39 -0700</pubDate>
       
-      <guid>http://aaronberk.ca/project/bcdata-midvale-take1/</guid>
+      <guid>https://aaronberk.ca/project/bcdata-midvale-take1/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Gradient Descent</title>
-      <link>http://aaronberk.ca/project/gradient-descent/</link>
+      <link>https://aaronberk.ca/project/gradient-descent/</link>
       <pubDate>Tue, 12 Sep 2017 18:46:08 -0700</pubDate>
       
-      <guid>http://aaronberk.ca/project/gradient-descent/</guid>
+      <guid>https://aaronberk.ca/project/gradient-descent/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>http://aaronberk.ca/project/simplml/</link>
+      <link>https://aaronberk.ca/project/simplml/</link>
       <pubDate>Tue, 12 Sep 2017 18:32:06 -0700</pubDate>
       
-      <guid>http://aaronberk.ca/project/simplml/</guid>
+      <guid>https://aaronberk.ca/project/simplml/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>http://aaronberk.ca/project/wavelets-are-cool/</link>
+      <link>https://aaronberk.ca/project/wavelets-are-cool/</link>
       <pubDate>Sat, 12 Aug 2017 20:49:35 -0700</pubDate>
       
-      <guid>http://aaronberk.ca/project/wavelets-are-cool/</guid>
+      <guid>https://aaronberk.ca/project/wavelets-are-cool/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A Proof of Calderón&#39;s Formula</title>
-      <link>http://aaronberk.ca/project/proof-calderon/</link>
+      <link>https://aaronberk.ca/project/proof-calderon/</link>
       <pubDate>Mon, 24 Apr 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://aaronberk.ca/project/proof-calderon/</guid>
+      <guid>https://aaronberk.ca/project/proof-calderon/</guid>
       <description></description>
     </item>
     
     <item>
       <title>MSc project submission</title>
-      <link>http://aaronberk.ca/project/msc-proj/</link>
+      <link>https://aaronberk.ca/project/msc-proj/</link>
       <pubDate>Mon, 24 Apr 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://aaronberk.ca/project/msc-proj/</guid>
+      <guid>https://aaronberk.ca/project/msc-proj/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Parameter Stability in CS</title>
-      <link>http://aaronberk.ca/project/iam-retreat-2017/</link>
+      <link>https://aaronberk.ca/project/iam-retreat-2017/</link>
       <pubDate>Mon, 24 Apr 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://aaronberk.ca/project/iam-retreat-2017/</guid>
+      <guid>https://aaronberk.ca/project/iam-retreat-2017/</guid>
       <description></description>
     </item>
     

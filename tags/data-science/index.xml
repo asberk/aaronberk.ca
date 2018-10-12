@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Data Science on Aaron Berk</title>
-    <link>http://aaronberk.ca/tags/data-science/</link>
+    <link>https://aaronberk.ca/tags/data-science/</link>
     <description>Recent content in Data Science on Aaron Berk</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018 Aaron Berk</copyright>
     <lastBuildDate>Wed, 27 Jun 2018 10:22:17 -0700</lastBuildDate>
     
-	<atom:link href="http://aaronberk.ca/tags/data-science/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://aaronberk.ca/tags/data-science/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Reflection: 2018 BC Data Science Workshop</title>
-      <link>http://aaronberk.ca/post/bcdata-workshop-2018/</link>
+      <link>https://aaronberk.ca/post/bcdata-workshop-2018/</link>
       <pubDate>Wed, 27 Jun 2018 10:22:17 -0700</pubDate>
       
-      <guid>http://aaronberk.ca/post/bcdata-workshop-2018/</guid>
+      <guid>https://aaronberk.ca/post/bcdata-workshop-2018/</guid>
       <description>Summary This is a summary and reflection from co-organizing the second iteration of the BC Data Workshop.
 About The BC Data Workshop was hosted June 4 &amp;ndash; 8 on the UBC campus, co-organized with the IAM Director Brian Wetton, supported by PIMS.
 The workshop featured a wide array of problem material from industry in the lower mainland, channeled as week-long data science projects led by industry mentors.
@@ -26,19 +26,19 @@ Projects Project 1: SSR Mining Participants analyzed over 50 GB of data for part
     
     <item>
       <title>Matrix Completion</title>
-      <link>http://aaronberk.ca/project/matrix-completion/</link>
+      <link>https://aaronberk.ca/project/matrix-completion/</link>
       <pubDate>Tue, 12 Sep 2017 20:59:02 -0700</pubDate>
       
-      <guid>http://aaronberk.ca/project/matrix-completion/</guid>
+      <guid>https://aaronberk.ca/project/matrix-completion/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Reflection: 2017 BC Data Science Workshop</title>
-      <link>http://aaronberk.ca/post/bcdata-workshop-2017/</link>
+      <link>https://aaronberk.ca/post/bcdata-workshop-2017/</link>
       <pubDate>Tue, 12 Sep 2017 19:47:28 -0700</pubDate>
       
-      <guid>http://aaronberk.ca/post/bcdata-workshop-2017/</guid>
+      <guid>https://aaronberk.ca/post/bcdata-workshop-2017/</guid>
       <description>Summary This is a brief summary and some incomplete reflections from my time as the workshop TA for the 2017 BC Data Science Workshop.
 About The BC Data Workshop was hosted August 9 &amp;ndash; 25 in downtown Vancouver at UBC Robson Square, co-organized by myself, Brian Wetton and Lee Rippon from the IAM, with support from PIMS and SFU Mathematics.
 The workshop featured a wide array of material from experts across the west coast, structured into three sections: a 3-day pre-workshop intensive; a week of introductory material; and a week-long data science project led by industry mentors.</description>
@@ -46,19 +46,19 @@ The workshop featured a wide array of material from experts across the west coas
     
     <item>
       <title>Land type clustering from photogrammetric drone image data</title>
-      <link>http://aaronberk.ca/project/bcdata-smartshores/</link>
+      <link>https://aaronberk.ca/project/bcdata-smartshores/</link>
       <pubDate>Tue, 12 Sep 2017 18:53:46 -0700</pubDate>
       
-      <guid>http://aaronberk.ca/project/bcdata-smartshores/</guid>
+      <guid>https://aaronberk.ca/project/bcdata-smartshores/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Video Compression Analysis</title>
-      <link>http://aaronberk.ca/project/bcdata-midvale-take1/</link>
+      <link>https://aaronberk.ca/project/bcdata-midvale-take1/</link>
       <pubDate>Tue, 12 Sep 2017 18:50:39 -0700</pubDate>
       
-      <guid>http://aaronberk.ca/project/bcdata-midvale-take1/</guid>
+      <guid>https://aaronberk.ca/project/bcdata-midvale-take1/</guid>
       <description></description>
     </item>
     
