@@ -15,6 +15,7 @@ categories = []
 # Place your image in the `static/img/` folder and reference its filename below, e.g. `image = "example.jpg"`.
 [header]
 image = "bcdata_banner.jpg"
+image_preview = "bcdata_banner_small.jpg"
 caption = "The 2017 BC Data Science Workshop"
 
 +++

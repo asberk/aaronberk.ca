@@ -16,6 +16,7 @@ categories = ['matrix-completion', 'convex-optimization', 'tutorial', 'compresse
 # Place your image in the `static/img/` folder and reference its filename below, e.g. `image = "example.jpg"`.
 [header]
 image = "matrix-completion-post-banner.png"
+image_preview = "matrix-completion-post-banner-small.png"
 caption = "Nuclear norm minimization for matrix completion"
 
 +++
