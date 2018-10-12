@@ -75,35 +75,14 @@ GitHub](https://gohugo.io/hosting-and-deployment/hosting-on-github/) and about
 [hosting on a custom
 domain](https://gohugo.io/hosting-and-deployment/hosting-on-github/#use-a-custom-domain).
 
-Notes for this presentation will be made available on this page after the
-tutorial.
-
-
-# Host a website on GitHub with Hugo
-
-Tutorial assembled and hosted by [Aaron Berk](asberk.ca) from readily available resources (cited inline). 
-
-### Resources
-
-Hugo offers a [Quickstart
-Guide](https://gohugo.io/getting-started/quick-start/). Here is [Basic
-Usage](https://gohugo.io/getting-started/usage/).
-
-Here is how to [host on
-GitHub](https://gohugo.io/hosting-and-deployment/hosting-on-github/) (with a
-blurb on [custom
-domains](https://gohugo.io/hosting-and-deployment/hosting-on-github/#use-a-custom-domain)).
-
-[GitHub documentation for custom
-domain](https://help.github.com/articles/using-a-custom-domain-with-github-pages/).
-
-Registrar options:
+Finally, here are three registrar options for securing your own domain. 
 
 * [Gandi.net](https://www.gandi.net/en)
 * [Internet.bs](https://internetbs.net)
 * [Namecheap](https://www.namecheap.com/) 
 
-### Steps
+
+### Step-by-step
 
 1. `brew install hugo`
 2. Make sure hugo works by running `hugo version` in Terminal. 
