@@ -15,7 +15,8 @@ categories = []
 # Featured image
 # Place your image in the `static/img/` folder and reference its filename below, e.g. `image = "example.jpg"`.
 [header]
-image = "open-book.jpg"
+image = "open-book-large.jpg"
+image_preview = "open-book.jpg"
 caption = "Source: https://www.pexels.com/photo/book-book-pages-browse-education-267586/"
 
 +++

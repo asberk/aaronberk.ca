@@ -11,7 +11,7 @@ tags = ["machine-learning", "data-science"]
 summary = "My take on the video compression project from the [bcdata workshop](http://workshop.bcdata.ca)"
 
 # Optional image to display on homepage.
-image_preview = "video-camera.jpeg"
+image_preview = "video-camera.jpg"
 
 # Optional external URL for project (replaces project detail page).
 external_link = "https://gist.github.com/asberk/dfe9ee6587caf2ee398f41fa255fd29c"
