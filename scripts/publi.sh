@@ -27,7 +27,7 @@ hugo
 # mkdir public/2017
 # shopt -s extglob
 # mv ./public/!(2017|.git) ./public/2017/
-cp CNAME ./public/
+cp CNAME sitemap.xml ./public/
 # cp index.redirect ./public/index.html
 
 echo "Updating gh-pages branch"
