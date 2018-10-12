@@ -64,6 +64,121 @@ domain&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Notes for this presentation will be made available on this page after the
 tutorial.&lt;/p&gt;
+
+&lt;h1 id=&#34;host-a-website-on-github-with-hugo&#34;&gt;Host a website on GitHub with Hugo&lt;/h1&gt;
+
+&lt;p&gt;Tutorial assembled and hosted by &lt;a href=&#34;asberk.ca&#34; target=&#34;_blank&#34;&gt;Aaron Berk&lt;/a&gt; from readily available resources (cited inline).&lt;/p&gt;
+
+&lt;h3 id=&#34;resources&#34;&gt;Resources&lt;/h3&gt;
+
+&lt;p&gt;Hugo offers a &lt;a href=&#34;https://gohugo.io/getting-started/quick-start/&#34; target=&#34;_blank&#34;&gt;Quickstart
+Guide&lt;/a&gt;. Here is &lt;a href=&#34;https://gohugo.io/getting-started/usage/&#34; target=&#34;_blank&#34;&gt;Basic
+Usage&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Here is how to &lt;a href=&#34;https://gohugo.io/hosting-and-deployment/hosting-on-github/&#34; target=&#34;_blank&#34;&gt;host on
+GitHub&lt;/a&gt; (with a
+blurb on &lt;a href=&#34;https://gohugo.io/hosting-and-deployment/hosting-on-github/#use-a-custom-domain&#34; target=&#34;_blank&#34;&gt;custom
+domains&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://help.github.com/articles/using-a-custom-domain-with-github-pages/&#34; target=&#34;_blank&#34;&gt;GitHub documentation for custom
+domain&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Registrar options:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.gandi.net/en&#34; target=&#34;_blank&#34;&gt;Gandi.net&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://internetbs.net&#34; target=&#34;_blank&#34;&gt;Internet.bs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.namecheap.com/&#34; target=&#34;_blank&#34;&gt;Namecheap&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;steps&#34;&gt;Steps&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;brew install hugo&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Make sure hugo works by running &lt;code&gt;hugo version&lt;/code&gt; in Terminal.&lt;/li&gt;
+&lt;li&gt;Run &lt;code&gt;hugo new site quickstart&lt;/code&gt; to create a new Hugo site in a folder named
+quickstart. e.g., I&amp;rsquo;ve created mine in &lt;code&gt;~/www/quickstart/&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Make sure you have a new repository for the site on GitHub
+&lt;img src=&#34;../../img/gh0.png&#34; alt=&#34;gh0&#34; /&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Get the example site into a repository&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;cd quickstart
+git init
+git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke
+git commit -m &#39;add theme submodule&#39;
+rm config.toml
+cp -r themes/ananke/exampleSite/* ./
+# -&amp;gt; change theme name to theme folder name
+# -&amp;gt; remove themesDir variable
+# -&amp;gt; change baseURL to http://quickstart.aaronberk.ca
+emacs config.toml
+git add *
+git commit -m &#39;[IC] example site&#39;
+git remote add origin git@github.com:asberk/quickstart.git
+git push -u origin master
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Now we need to get this thing &lt;a href=&#34;https://gohugo.io/hosting-and-deployment/hosting-on-github/#deployment-of-project-pages-from-your-gh-pages-branch&#34; target=&#34;_blank&#34;&gt;hosted on github pages&lt;/a&gt;.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;# master must ignore gh-pages branch
+echo &amp;quot;public&amp;quot; &amp;gt;&amp;gt; .gitignore
+git add .gitignore
+git commit -m &#39;add .gitignore&#39;
+git push
+# initialize gh-pages branch
+git checkout --orphan gh-pages
+git reset --hard
+git commit --allow-empty -m &#39;initializing gh-pages branch&#39;
+git push origin gh-pages
+git checkout master
+# build and deploy using worktrees
+rm -rf public
+git worktree add -B gh-pages public origin/gh-pages
+# --&amp;gt; build site
+hugo
+cd public &amp;amp;&amp;amp; git add --all &amp;amp;&amp;amp; git commit -m &#39;publish to gh-pages&#39; &amp;amp;&amp;amp; cd ..
+git push origin gh-pages
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;That&amp;rsquo;s the coding bit.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Finally, we need to go to GitHub and Namecheap to finagle with some things. First Namecheap&amp;hellip;
+&lt;img src=&#34;../../img/namecheap0.png&#34; alt=&#34;namecheap homepage&#34; /&gt;
+Once you have a site, click on &lt;strong&gt;Manage&lt;/strong&gt;
+&lt;img src=&#34;../../img/namecheap1.png&#34; alt=&#34;manage&#34; /&gt;
+Then click on &lt;strong&gt;Advanced DNS&lt;/strong&gt;
+&lt;img src=&#34;../../img/namecheap2.png&#34; alt=&#34;manage&#34; /&gt;
+GitHub requires that you enter these two IPs as &lt;strong&gt;A Records&lt;/strong&gt;.
+&lt;img src=&#34;../../img/namecheap3.png&#34; alt=&#34;manage&#34; /&gt;
+If you wish to use a custom URL like quickstart.aaronberk.ca then you must
+&lt;strong&gt;enter a CNAME record&lt;/strong&gt; for it.
+&lt;img src=&#34;../../img/namecheap4.png&#34; alt=&#34;manage&#34; /&gt;
+&lt;img src=&#34;../../img/namecheap5.png&#34; alt=&#34;manage&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;And next the settings on GitHub. First go into Settings. Scroll down to set
+the custom domain field to your site. Then click Save.
+&lt;img src=&#34;../../img/gh2.png&#34; alt=&#34;gh3&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;You should now be able to go to your shiny new website at
+&lt;code&gt;quickstart.aaronberk.ca&lt;/code&gt;!&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;How do you make changes to your website? Here are some tips&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;hugo server&lt;/code&gt; is your friend — let&amp;rsquo;s you preview what&amp;rsquo;s going on before
+you publish. Even refreshes every time you save changes.&lt;/li&gt;
+&lt;li&gt;Useful shortcuts like &lt;code&gt;hugo new post/myNewPost.md&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Look at the theme documentation for its full set of features — sometimes
+there are many!&lt;/li&gt;
+&lt;li&gt;Use the &lt;code&gt;publish.sh&lt;/code&gt; script &lt;a href=&#34;https://gohugo.io/hosting-and-deployment/hosting-on-github/#put-it-into-a-script-1&#34; target=&#34;_blank&#34;&gt;from the
+tutorial&lt;/a&gt; (or a &lt;a href=&#34;../../publish.txt&#34;&gt;slightly modified one&lt;/a&gt;). The
+only caveat here is that this doesn&amp;rsquo;t actually do the final &lt;code&gt;git push
+origin gh-pages&lt;/code&gt; that you need, so you can add it in at the end to make
+sure it auto-pushes for you. Or don&amp;rsquo;t, in case you don&amp;rsquo;t want it to have
+that much power. 🐧&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;/ol&gt;
 </description>
     </item>
     

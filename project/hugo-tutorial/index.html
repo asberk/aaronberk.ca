@@ -263,6 +263,121 @@ domain</a>.</p>
 <p>Notes for this presentation will be made available on this page after the
 tutorial.</p>
 
+<h1 id="host-a-website-on-github-with-hugo">Host a website on GitHub with Hugo</h1>
+
+<p>Tutorial assembled and hosted by <a href="asberk.ca" target="_blank">Aaron Berk</a> from readily available resources (cited inline).</p>
+
+<h3 id="resources">Resources</h3>
+
+<p>Hugo offers a <a href="https://gohugo.io/getting-started/quick-start/" target="_blank">Quickstart
+Guide</a>. Here is <a href="https://gohugo.io/getting-started/usage/" target="_blank">Basic
+Usage</a>.</p>
+
+<p>Here is how to <a href="https://gohugo.io/hosting-and-deployment/hosting-on-github/" target="_blank">host on
+GitHub</a> (with a
+blurb on <a href="https://gohugo.io/hosting-and-deployment/hosting-on-github/#use-a-custom-domain" target="_blank">custom
+domains</a>).</p>
+
+<p><a href="https://help.github.com/articles/using-a-custom-domain-with-github-pages/" target="_blank">GitHub documentation for custom
+domain</a>.</p>
+
+<p>Registrar options:</p>
+
+<ul>
+<li><a href="https://www.gandi.net/en" target="_blank">Gandi.net</a></li>
+<li><a href="https://internetbs.net" target="_blank">Internet.bs</a></li>
+<li><a href="https://www.namecheap.com/" target="_blank">Namecheap</a></li>
+</ul>
+
+<h3 id="steps">Steps</h3>
+
+<ol>
+<li><code>brew install hugo</code></li>
+<li>Make sure hugo works by running <code>hugo version</code> in Terminal.</li>
+<li>Run <code>hugo new site quickstart</code> to create a new Hugo site in a folder named
+quickstart. e.g., I&rsquo;ve created mine in <code>~/www/quickstart/</code></li>
+<li>Make sure you have a new repository for the site on GitHub
+<img src="../../img/gh0.png" alt="gh0" /></li>
+
+<li><p>Get the example site into a repository</p>
+
+<pre><code class="language-bash">cd quickstart
+git init
+git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke
+git commit -m 'add theme submodule'
+rm config.toml
+cp -r themes/ananke/exampleSite/* ./
+# -&gt; change theme name to theme folder name
+# -&gt; remove themesDir variable
+# -&gt; change baseURL to http://quickstart.aaronberk.ca
+emacs config.toml
+git add *
+git commit -m '[IC] example site'
+git remote add origin git@github.com:asberk/quickstart.git
+git push -u origin master
+</code></pre></li>
+
+<li><p>Now we need to get this thing <a href="https://gohugo.io/hosting-and-deployment/hosting-on-github/#deployment-of-project-pages-from-your-gh-pages-branch" target="_blank">hosted on github pages</a>.</p>
+
+<pre><code class="language-bash"># master must ignore gh-pages branch
+echo &quot;public&quot; &gt;&gt; .gitignore
+git add .gitignore
+git commit -m 'add .gitignore'
+git push
+# initialize gh-pages branch
+git checkout --orphan gh-pages
+git reset --hard
+git commit --allow-empty -m 'initializing gh-pages branch'
+git push origin gh-pages
+git checkout master
+# build and deploy using worktrees
+rm -rf public
+git worktree add -B gh-pages public origin/gh-pages
+# --&gt; build site
+hugo
+cd public &amp;&amp; git add --all &amp;&amp; git commit -m 'publish to gh-pages' &amp;&amp; cd ..
+git push origin gh-pages
+</code></pre>
+
+<p>That&rsquo;s the coding bit.</p></li>
+
+<li><p>Finally, we need to go to GitHub and Namecheap to finagle with some things. First Namecheap&hellip;
+<img src="../../img/namecheap0.png" alt="namecheap homepage" />
+Once you have a site, click on <strong>Manage</strong>
+<img src="../../img/namecheap1.png" alt="manage" />
+Then click on <strong>Advanced DNS</strong>
+<img src="../../img/namecheap2.png" alt="manage" />
+GitHub requires that you enter these two IPs as <strong>A Records</strong>.
+<img src="../../img/namecheap3.png" alt="manage" />
+If you wish to use a custom URL like quickstart.aaronberk.ca then you must
+<strong>enter a CNAME record</strong> for it.
+<img src="../../img/namecheap4.png" alt="manage" />
+<img src="../../img/namecheap5.png" alt="manage" /></p></li>
+
+<li><p>And next the settings on GitHub. First go into Settings. Scroll down to set
+the custom domain field to your site. Then click Save.
+<img src="../../img/gh2.png" alt="gh3" /></p></li>
+
+<li><p>You should now be able to go to your shiny new website at
+<code>quickstart.aaronberk.ca</code>!</p></li>
+
+<li><p>How do you make changes to your website? Here are some tips</p>
+
+<ol>
+<li><code>hugo server</code> is your friend — let&rsquo;s you preview what&rsquo;s going on before
+you publish. Even refreshes every time you save changes.</li>
+<li>Useful shortcuts like <code>hugo new post/myNewPost.md</code></li>
+<li>Look at the theme documentation for its full set of features — sometimes
+there are many!</li>
+<li>Use the <code>publish.sh</code> script <a href="https://gohugo.io/hosting-and-deployment/hosting-on-github/#put-it-into-a-script-1" target="_blank">from the
+tutorial</a> (or a <a href="../../publish.txt">slightly modified one</a>). The
+only caveat here is that this doesn&rsquo;t actually do the final <code>git push
+origin gh-pages</code> that you need, so you can add it in at the end to make
+sure it auto-pushes for you. Or don&rsquo;t, in case you don&rsquo;t want it to have
+that much power. 🐧</li>
+</ol></li>
+</ol>
+
     </div>
 
   </div>
