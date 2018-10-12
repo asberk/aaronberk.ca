@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://aaronberk.ca/</loc>
+  <lastmod>2018-10-12T19:10:43+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://aaronberk.ca/publication/grem-1/</loc>
+  <lastmod>2018-10-12T19:10:43+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://aaronberk.ca/post/bcdata-workshop-2018/</loc>
+  <lastmod>2018-10-12T19:10:43+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://aaronberk.ca/post/resource-links/</loc>
+  <lastmod>2018-10-12T19:10:43+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://aaronberk.ca/post/matrix-completion-whirlwind/</loc>
+  <lastmod>2018-10-12T19:10:43+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://aaronberk.ca/post/bcdata-workshop-2017/</loc>
+  <lastmod>2018-10-12T19:10:43+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://aaronberk.ca/project/hugo-tutorial/</loc>
+  <lastmod>2018-10-12T19:10:43+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://aaronberk.ca/project/neural-networks-keras/</loc>
+  <lastmod>2018-10-12T19:10:43+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://aaronberk.ca/publication/</loc>
+  <lastmod>2018-10-12T19:10:43+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://aaronberk.ca/project/matrix-completion/</loc>
+  <lastmod>2018-10-12T19:10:43+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://aaronberk.ca/project/bcdata-smartshores/</loc>
+  <lastmod>2018-10-12T19:10:43+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://aaronberk.ca/project/bcdata-midvale-take1/</loc>
+  <lastmod>2018-10-12T19:10:43+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://aaronberk.ca/project/gradient-descent/</loc>
+  <lastmod>2018-10-12T19:10:43+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://aaronberk.ca/project/simplml/</loc>
+  <lastmod>2018-10-12T19:10:43+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://aaronberk.ca/publish.txt</loc>
+  <lastmod>2018-10-12T19:10:43+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://aaronberk.ca/project/wavelets-are-cool/</loc>
+  <lastmod>2018-10-12T19:10:43+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://aaronberk.ca/project/proof-calderon/</loc>
+  <lastmod>2018-10-12T19:10:43+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://aaronberk.ca/project/msc-proj/</loc>
+  <lastmod>2018-10-12T19:10:43+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://aaronberk.ca/project/iam-retreat-2017/</loc>
+  <lastmod>2018-10-12T19:10:43+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+
+
+</urlset>
