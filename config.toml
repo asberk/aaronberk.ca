@@ -1,4 +1,4 @@
-baseurl = "https://aaronberk.ca"
+baseurl = "https://aaronberk.ca/"
 title = "Aaron Berk"
 copyright = "&copy; 2018 Aaron Berk"
 theme = "academic"
@@ -143,10 +143,14 @@ defaultContentLanguageInSubdir = false
     link = "//github.com/asberk"
 
   [[params.social]]
-    icon = "linkedin-square"
+    icon = "linkedin"
     icon_pack = "fa"
     link = "//www.linkedin.com/in/aaron-berk-a06b1540/"
 
+  [[params.social]]
+    icon = "newspaper-o"
+    icon_pack = "fa"
+    link = "../aberk_cv_20181017.pdf"
 
 # Navigation Links
 #   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
