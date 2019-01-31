@@ -57,3 +57,19 @@ some of our **challenge problems**. For example (in order of difficulty):
 free to ask us for help along the way! If some of the Python syntax or notation
 seems "weird" or like something we haven't covered, come ask us for some
 pointers!
+
+
+## About Future Science Leaders
+
+[Future Science Leaders](https://www.scienceworld.ca/futurescienceleaders) is
+an academic engagement opportunity for high school children. "In weekly
+meetings, students learn essential skills, meet top experts and innovators and
+apply their new knowledge and skills" with the expectation of "[excelling] in
+national and international science, technology, engineering and math
+challenges". The math theme comprises three weeks of the program. During this
+time, students learn some elements of graph theory (labelling and traversal),
+elementary number theory (modular arithmetic and cryptography), and
+applications to computing with Python (root-finding, cryptography, games, and
+more). Have a gander at a previous iteration of [the Math
+theme](https://www.scienceworld.ca/sites/default/files/Math%20copy.pdf) and
+stay tuned for this year's iteration!
