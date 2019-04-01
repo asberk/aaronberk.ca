@@ -1,6 +1,6 @@
 +++
 # About/Biography widget.
-
+math=true
 date = "2017-04-23T23:19:00"
 draft = false
 
