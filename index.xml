@@ -78,21 +78,13 @@ stay tuned for this year&amp;rsquo;s iteration!&lt;/p&gt;
     </item>
     
     <item>
-      <title>Parameter instability regimes in sparse proximal denoising programs</title>
-      <link>https://aaronberk.ca/publication/icassp-2019/</link>
-      <pubDate>Mon, 29 Oct 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://aaronberk.ca/publication/icassp-2019/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Parameter instability regimes for sparse proximal denoising programs</title>
+      <title>Sensitivity of ℓ₁ minimization to parameter choice</title>
       <link>https://aaronberk.ca/publication/pir-spd/</link>
       <pubDate>Sun, 28 Oct 2018 00:00:00 +0000</pubDate>
       
       <guid>https://aaronberk.ca/publication/pir-spd/</guid>
-      <description></description>
+      <description>&lt;p&gt;(Submitted to Information and Inference: A Journal of the IMA on 31 March 2019.)&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -416,6 +408,15 @@ Random Fields by Hugo Larochelle.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://arxiv.org/pdf/1206.5538.pdf&#34; target=&#34;_blank&#34;&gt;Review on Representation Learning&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>Parameter instability regimes in sparse proximal denoising programs</title>
+      <link>https://aaronberk.ca/publication/sampta-2019/</link>
+      <pubDate>Tue, 30 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://aaronberk.ca/publication/sampta-2019/</guid>
+      <description></description>
     </item>
     
     <item>
