@@ -14,11 +14,13 @@ weight = 60
 
 +++
 
-I was a teaching assistant for the 2017 
-[UBC MDS](https://ubc-mds.github.io/descriptions/) 
-program: Descriptive Statistics and Probability, Data Wrangling, Supervised
-Learning I, Feature and Model Selection, Statistical Inference and Computation
-II and Experimentation and Causal Inference.
+I was a teaching assistant for the 2017 and 2018 [UBC
+MDS](https://ubc-mds.github.io/descriptions/) programs. In 2017: Descriptive
+Statistics and Probability, Data Wrangling, Supervised Learning I, Feature and
+Model Selection, Statistical Inference and Computation II and Experimentation
+and Causal Inference. In 2018: Communication & Argumentation, Data Wrangling,
+Databases and Data Retrieval, Unsupervised Learning, Spatial & Temporal Models,
+Web and Cloud Computing.
 
 I was co-organizer and workshop TA for the 
 [2017 BC Data Science workshop](http://workshop.bcdata.ca/2017) and 
