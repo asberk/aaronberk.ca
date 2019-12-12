@@ -150,7 +150,7 @@ defaultContentLanguageInSubdir = false
   [[params.social]]
     icon = "newspaper-o"
     icon_pack = "fa"
-    link = "../aberk_cv_20190516.pdf"
+    link = "../aberk_cv_20191207.pdf"
 
 # Navigation Links
 #   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
