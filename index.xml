@@ -11,23 +11,14 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Parameter instability regimes in sparse proximal denoising programs</title>
-      <link>https://aaronberk.ca/publication/sampta-2019/</link>
-      <pubDate>Mon, 08 Jul 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://aaronberk.ca/publication/sampta-2019/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Future [Mathematics] Leaders</title>
-      <link>https://aaronberk.ca/post/fsld3/</link>
-      <pubDate>Tue, 22 Jan 2019 16:00:00 -0800</pubDate>
+      <link>https://aaronberk.ca/post/fsl20d2/</link>
+      <pubDate>Wed, 15 Jan 2020 19:52:38 -0800</pubDate>
       
-      <guid>https://aaronberk.ca/post/fsld3/</guid>
+      <guid>https://aaronberk.ca/post/fsl20d2/</guid>
       <description>
 
-&lt;h2 id=&#34;day-3-coding-in-python&#34;&gt;Day 3 &amp;mdash; Coding in Python&lt;/h2&gt;
+&lt;h2 id=&#34;day-2-coding-in-python&#34;&gt;Day 2 &amp;mdash; Coding in Python&lt;/h2&gt;
 
 &lt;p&gt;Welcome to Day 3 of the Math section of Future Science Leaders! Today, you will
 get to explore a series of activities that will have you coding and problem
@@ -37,53 +28,77 @@ be no need to make an account. We&amp;rsquo;ll be walking around to make sure yo
 to get up and running.&lt;/p&gt;
 
 &lt;p&gt;Before you start coding, have a look through the
-&lt;a href=&#34;https://www.dropbox.com/s/chd1ssdaykqm99z/Intro.pdf?dl=0&#34; target=&#34;_blank&#34;&gt;Introduction&lt;/a&gt; and
-&lt;a href=&#34;https://www.dropbox.com/s/wwsvou0fumwcepr/FlowChart.pdf?dl=0&#34; target=&#34;_blank&#34;&gt;Flowchart&lt;/a&gt;
+&lt;a href=&#34;https://www.dropbox.com/s/8z34jqllpx3pv2g/Intro.pdf?dl=0&#34; target=&#34;_blank&#34;&gt;Introduction&lt;/a&gt; and
+&lt;a href=&#34;https://www.dropbox.com/s/xxewna0jroid0uy/FlowChart.pdf?dl=0&#34; target=&#34;_blank&#34;&gt;Flowchart&lt;/a&gt;
 documents. These will give you some idea of where to begin, and what comes next.&lt;/p&gt;
 
 &lt;p&gt;If you&amp;rsquo;re new to Python or coding, or if you could use a refresher, then try
 exploring the
-&lt;a href=&#34;https://www.dropbox.com/s/y57ssnbi64q6eu7/Numbers.pdf?dl=0&#34; target=&#34;_blank&#34;&gt;Numbers&lt;/a&gt; worksheet
-next. Afterward, check out &lt;a href=&#34;https://www.dropbox.com/s/1gwgi98xnc22u20/Conditional_Statements.pdf?dl=0&#34; target=&#34;_blank&#34;&gt;Conditional
-Statements&lt;/a&gt;,
-and then &lt;a href=&#34;https://www.dropbox.com/s/vi1ehvui01hhmph/Loops.pdf?dl=0&#34; target=&#34;_blank&#34;&gt;Loops&lt;/a&gt;.&lt;/p&gt;
+&lt;a href=&#34;https://www.dropbox.com/s/1xi3fwbajlb0wkf/Numbers.pdf?dl=0&#34; target=&#34;_blank&#34;&gt;Numbers&lt;/a&gt; worksheet
+next. Afterward, check out &lt;a href=&#34;https://www.dropbox.com/s/1xi3fwbajlb0wkf/Numbers.pdf?dl=0&#34; target=&#34;_blank&#34;&gt;Conditional
+Statements&lt;/a&gt;, and
+then &lt;a href=&#34;https://www.dropbox.com/s/l356bnhbtra7mxz/Loops.pdf?dl=0&#34; target=&#34;_blank&#34;&gt;Loops&lt;/a&gt;. If you
+know how to program in another language, and want to see one of many things that
+makes Python special, you can check out
+&lt;a href=&#34;https://www.dropbox.com/s/ccbpsdb98pubt1n/Loops2.pdf?dl=0&#34; target=&#34;_blank&#34;&gt;Loops2&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Once you feel comfortable with the content above, you might wish to try out the
-&lt;a href=&#34;https://www.dropbox.com/s/4e2zsjd3ltl9v8r/dungeon.py?dl=0&#34; target=&#34;_blank&#34;&gt;Choose Your Own Adventure
+&lt;a href=&#34;https://www.dropbox.com/s/ci6q45vfd35t0f0/dungeon.py?dl=0&#34; target=&#34;_blank&#34;&gt;Choose Your Own Adventure
 game&lt;/a&gt;. If you think
 you might like to build your own, then why don&amp;rsquo;t you try making your very own
-&lt;a href=&#34;https://www.dropbox.com/s/1t4g8g2hsm66evv/ChoiceGame.pdf?dl=0&#34; target=&#34;_blank&#34;&gt;Choice Game&lt;/a&gt;?&lt;/p&gt;
+&lt;a href=&#34;https://www.dropbox.com/s/zg3lbgz4yy36ukd/ChoiceGame.pdf?dl=0&#34; target=&#34;_blank&#34;&gt;Choice Game&lt;/a&gt;?&lt;/p&gt;
 
 &lt;p&gt;If these challenges &lt;em&gt;still&lt;/em&gt; aren&amp;rsquo;t hard enough for you, then you can try out
 some of our &lt;strong&gt;challenge problems&lt;/strong&gt;. For example (in order of difficulty):&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/jugkm3i4ow3uzau/12Days.pdf?dl=0&#34; target=&#34;_blank&#34;&gt;12Days&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/kj517lcmlezgk7o/Root.pdf?dl=0&#34; target=&#34;_blank&#34;&gt;Root&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/ng5z7z314z9tdxi/Caesar.pdf?dl=0&#34; target=&#34;_blank&#34;&gt;Caesar&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/dthm53tzwc7f2pk/12Days.pdf?dl=0&#34; target=&#34;_blank&#34;&gt;12Days&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/dthm53tzwc7f2pk/12Days.pdf?dl=0&#34; target=&#34;_blank&#34;&gt;Root&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/n77oeri7kgnsag4/Caesar.pdf?dl=0&#34; target=&#34;_blank&#34;&gt;Caesar&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/m83ub86evk40sib/UltraChallenging.pdf?dl=0&#34; target=&#34;_blank&#34;&gt;Three ultra-challenging problems&lt;/a&gt; (attribution unknown)&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; to attempt the Caesar challenge, you&amp;rsquo;ll first want to &amp;ldquo;Fork&amp;rdquo; the
-&lt;a href=&#34;https://repl.it/@asberk/&#34; target=&#34;_blank&#34;&gt;associated &lt;code&gt;FSLd3&lt;/code&gt; REPL&lt;/a&gt; before getting started. Feel
-free to ask us for help along the way! If some of the Python syntax or notation
-seems &amp;ldquo;weird&amp;rdquo; or like something we haven&amp;rsquo;t covered, come ask us for some
-pointers!&lt;/p&gt;
+&lt;a href=&#34;https://repl.it/@asberk/&#34; target=&#34;_blank&#34;&gt;associated &lt;code&gt;FSL20d2&lt;/code&gt; REPL&lt;/a&gt; before getting
+started. Feel free to ask us for help along the way! If some of the Python
+syntax or notation seems &amp;ldquo;weird&amp;rdquo;, that&amp;rsquo;s because we haven&amp;rsquo;t talked about
+it. Come ask us for some pointers!&lt;/p&gt;
 
-&lt;h2 id=&#34;about-future-science-leaders&#34;&gt;About Future Science Leaders&lt;/h2&gt;
+&lt;!-- ## About Future Science Leaders --&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://www.scienceworld.ca/futurescienceleaders&#34; target=&#34;_blank&#34;&gt;Future Science Leaders&lt;/a&gt; is
-an academic engagement opportunity for high school children. &amp;ldquo;In weekly
-meetings, students learn essential skills, meet top experts and innovators and
-apply their new knowledge and skills&amp;rdquo; with the expectation of &amp;ldquo;[excelling] in
-national and international science, technology, engineering and math
-challenges&amp;rdquo;. The math theme comprises three weeks of the program. During this
-time, students learn some elements of graph theory (labelling and traversal),
-elementary number theory (modular arithmetic and cryptography), and
-applications to computing with Python (root-finding, cryptography, games, and
-more). Have a gander at a previous iteration of &lt;a href=&#34;https://www.scienceworld.ca/sites/default/files/Math%20copy.pdf&#34; target=&#34;_blank&#34;&gt;the Math
-theme&lt;/a&gt; and
-stay tuned for this year&amp;rsquo;s iteration!&lt;/p&gt;
+&lt;!-- [Future Science Leaders](https://www.scienceworld.ca/futurescienceleaders) is --&gt;
+
+&lt;!-- an academic engagement opportunity for high school children. &#34;In weekly --&gt;
+
+&lt;!-- meetings, students learn essential skills, meet top experts and innovators and --&gt;
+
+&lt;!-- apply their new knowledge and skills&#34; with the expectation of &#34;[excelling] in --&gt;
+
+&lt;!-- national and international science, technology, engineering and math --&gt;
+
+&lt;!-- challenges&#34;. The math theme comprises three weeks of the program. During this --&gt;
+
+&lt;!-- time, students learn some elements of graph theory (labelling and traversal), --&gt;
+
+&lt;!-- elementary number theory (modular arithmetic and cryptography), and --&gt;
+
+&lt;!-- applications to computing with Python (root-finding, cryptography, games, and --&gt;
+
+&lt;!-- more). Have a gander at a previous iteration of [the Math --&gt;
+
+&lt;!-- theme](https://www.scienceworld.ca/sites/default/files/Math%20copy.pdf) and --&gt;
+
+&lt;!-- stay tuned for this year&#39;s iteration! --&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>Parameter instability regimes in sparse proximal denoising programs</title>
+      <link>https://aaronberk.ca/publication/sampta-2019/</link>
+      <pubDate>Mon, 08 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://aaronberk.ca/publication/sampta-2019/</guid>
+      <description></description>
     </item>
     
     <item>
