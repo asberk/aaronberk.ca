@@ -38,7 +38,7 @@ makes Python special, you can check out
 
 Once you feel comfortable with the content above, you might wish to try out the
 [Choose Your Own Adventure
-game](https://www.dropbox.com/s/ci6q45vfd35t0f0/dungeon.py?dl=0). If you think
+game](https://repl.it/@asberk/dungeongame). If you think
 you might like to build your own, then why don't you try making your very own
 [Choice Game](https://www.dropbox.com/s/zg3lbgz4yy36ukd/ChoiceGame.pdf?dl=0)?
 
