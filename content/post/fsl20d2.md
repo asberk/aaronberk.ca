@@ -46,7 +46,7 @@ If these challenges *still* aren't hard enough for you, then you can try out
 some of our **challenge problems**. For example (in order of difficulty):
 
 * [12Days](https://www.dropbox.com/s/dthm53tzwc7f2pk/12Days.pdf?dl=0)
-* [Root](https://www.dropbox.com/s/dthm53tzwc7f2pk/12Days.pdf?dl=0)
+* [Root](https://www.dropbox.com/s/j7k13an7webkv6f/Root.pdf?dl=0)
 * [Caesar](https://www.dropbox.com/s/n77oeri7kgnsag4/Caesar.pdf?dl=0)
 * [Three ultra-challenging problems](https://www.dropbox.com/s/m83ub86evk40sib/UltraChallenging.pdf?dl=0) (attribution unknown)
 
