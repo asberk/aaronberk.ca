@@ -30,7 +30,7 @@ If you're new to Python or coding, or if you could use a refresher, then try
 exploring the
 [Numbers](https://www.dropbox.com/s/1xi3fwbajlb0wkf/Numbers.pdf?dl=0) worksheet
 next. Afterward, check out [Conditional
-Statements](https://www.dropbox.com/s/1xi3fwbajlb0wkf/Numbers.pdf?dl=0), and
+Statements](https://www.dropbox.com/s/yigvcjad8lxeyno/Conditional_Statements.pdf?dl=0), and
 then [Loops](https://www.dropbox.com/s/l356bnhbtra7mxz/Loops.pdf?dl=0). If you
 know how to program in another language, and want to see one of many things that
 makes Python special, you can check out
