@@ -11,6 +11,130 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Python installation tutorial</title>
+      <link>https://aaronberk.ca/post/python-install-tutorial/</link>
+      <pubDate>Tue, 14 Apr 2020 12:00:00 +0000</pubDate>
+      
+      <guid>https://aaronberk.ca/post/python-install-tutorial/</guid>
+      <description>
+
+&lt;p&gt;There will be approximately three steps to this tutorial.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Install Homebrew&lt;/li&gt;
+&lt;li&gt;Use &lt;code&gt;brew&lt;/code&gt; to install the latest version of &lt;code&gt;python&lt;/code&gt;&lt;br /&gt;
+Verify that the installation is working correctly and troubleshoot if
+necessary.&lt;/li&gt;
+&lt;li&gt;Install useful packages using &lt;code&gt;pip&lt;/code&gt;.&lt;br /&gt;
+Ensure they are working and troubleshoot if necessary.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;installing-homebrew&#34;&gt;Installing Homebrew&lt;/h2&gt;
+
+&lt;p&gt;A main tool in our installation process will be homebrew. Homebrew is a package
+manager for Mac OS that is extremely handy, well beyond the scope of installing
+Python. First we&amp;rsquo;ll check if homebrew is already installed. To do so, run the
+following snippet and look examine the output. If homebrew is installed, then it
+should print out some version information.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;gt; brew --version
+Homebrew 2.2.12
+Homebrew/homebrew-core (git revision d51e0f; last commit 2020-04-09)
+Homebrew/homebrew-cask (git revision 78b7f; last commit 2020-04-09)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;If running the above command gives an error because &lt;code&gt;brew&lt;/code&gt; is not a defined
+command, then you&amp;rsquo;ll have to install homebrew. To do so, open a new Terminal
+window and enter the following (this snippet was taken from the &lt;a href=&#34;https://brew.sh/&#34; target=&#34;_blank&#34;&gt;homebrew main
+page&lt;/a&gt;).&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;/bin/bash -c &amp;quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;As a brief caveat, it&amp;rsquo;s possible you will first have to install some XCode
+components required by &lt;code&gt;brew&lt;/code&gt;, in which case &lt;code&gt;brew&lt;/code&gt; should let you know. Be
+prepared to run the following snippet and follow along with the install
+instructions.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;xcode-select --install
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;If the installation of brew worked, then you should now be able to run&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;brew --version
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;and see some version information as per the above.&lt;/p&gt;
+
+&lt;h2 id=&#34;installing-python&#34;&gt;Installing Python&lt;/h2&gt;
+
+&lt;p&gt;Now, installing Python should be as easy as running:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;&amp;gt; brew install python3
+&amp;lt;&amp;lt;long&amp;gt;&amp;gt;
+
+&amp;gt; python --version
+Python 3.6.10 :: Anaconda, Inc.
+
+&amp;gt; pip -V
+pip 20.0.2 from /Users/aberk/anaconda/envs/py37/lib/python3.6/site-packages/pip (python 3.6)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; An alternative to the homebrew installation avenue is to download an
+installer file from the &lt;a href=&#34;https://www.python.org/downloads/release/python-382/&#34; target=&#34;_blank&#34;&gt;official Python
+page&lt;/a&gt;. I have no
+familiarity using this avenue.&lt;/p&gt;
+
+&lt;h2 id=&#34;installing-commonly-used-packages&#34;&gt;Installing commonly used packages&lt;/h2&gt;
+
+&lt;p&gt;This tutorial was tailored for a machine learning audience, so the installed
+packages will contain some packages that are useful for ML.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;&amp;gt; pip install numpy pandas matplotlib 
+&amp;gt; pip install scipy seaborn sckit-learn
+&amp;gt; pip install feather-format
+&amp;gt; pip install torch torchvision
+&amp;gt; pip install notebook jupyterlab
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;There are numerous other useful packages to install, but let&amp;rsquo;s see if we can get
+up and running with these first. In all cases, you should be able to confirm
+that a package was installed correctly by running the following snippet and
+observing the package&amp;rsquo;s version number as the output.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;&amp;gt; python -c &#39;import the_package; print(the_package.__version__)&#39;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;For example, on my machine:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;&amp;gt; python -c &#39;import numpy; print(numpy.__version__)&#39;
+1.18.1
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;In rare instances, a package may not implement the (more-or-less standard)
+&lt;code&gt;.__version__&lt;/code&gt; syntax. Python will throw an error in this exceptional case.&lt;/p&gt;
+
+&lt;h2 id=&#34;more-information&#34;&gt;More information&lt;/h2&gt;
+
+&lt;p&gt;See
+&lt;a href=&#34;https://medium.com/faun/the-right-way-to-set-up-python-on-your-mac-e923ffe8cf8e&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;
+for some alternative information on installing Python and managing
+environments. The post seems slightly out-of-date (by about a year). The short
+timeframe of this obsolescence does not bode well for the present tutorial. 😅&lt;/p&gt;
+
+&lt;p&gt;For learning how to program in Python, the &lt;a href=&#34;https://docs.python.org/3/tutorial/&#34; target=&#34;_blank&#34;&gt;official
+documentation&lt;/a&gt; provides extensive resources
+for getting up-and-running, as well as a &lt;a href=&#34;https://docs.python.org/3/reference/&#34; target=&#34;_blank&#34;&gt;language
+reference&lt;/a&gt; which serves as a bit of a
+dictionary once you&amp;rsquo;re mostly up-and-running. Another great tutorial resource is
+&lt;a href=&#34;https://www.math.ubc.ca/~pwalls/#ubcs3&#34; target=&#34;_blank&#34;&gt;Patrick Walls&amp;rsquo;s UBCS3 page&lt;/a&gt; which
+includes some &amp;ldquo;&lt;a href=&#34;https://www.math.ubc.ca/~pwalls/math-python/&#34; target=&#34;_blank&#34;&gt;mathematical
+Python&lt;/a&gt;&amp;rdquo; walkthroughs, and
+&amp;ldquo;machine learning with Python&amp;rdquo; walkthroughs.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Future [Mathematics] Leaders</title>
       <link>https://aaronberk.ca/post/fsl20d2/</link>
       <pubDate>Wed, 15 Jan 2020 19:52:38 -0800</pubDate>
@@ -643,15 +767,6 @@ generated from a nearest neighbours tree. My own approach to this problem can be
       <pubDate>Tue, 12 Sep 2017 18:32:06 -0700</pubDate>
       
       <guid>https://aaronberk.ca/project/simplml/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://aaronberk.ca/project/wavelets-are-cool/</link>
-      <pubDate>Sat, 12 Aug 2017 20:49:35 -0700</pubDate>
-      
-      <guid>https://aaronberk.ca/project/wavelets-are-cool/</guid>
       <description></description>
     </item>
     

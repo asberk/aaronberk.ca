@@ -13,6 +13,18 @@
     
     
     <item>
+      <title>Python installation tutorial</title>
+      <link>https://aaronberk.ca/post/python-install-tutorial/</link>
+      <pubDate>Tue, 14 Apr 2020 12:00:00 +0000</pubDate>
+      
+      <guid>https://aaronberk.ca/post/python-install-tutorial/</guid>
+      <description>There will be approximately three steps to this tutorial.
+ Install Homebrew Use brew to install the latest version of python
+Verify that the installation is working correctly and troubleshoot if necessary. Install useful packages using pip.
+Ensure they are working and troubleshoot if necessary.  Installing Homebrew A main tool in our installation process will be homebrew. Homebrew is a package manager for Mac OS that is extremely handy, well beyond the scope of installing Python.</description>
+    </item>
+    
+    <item>
       <title>Future [Mathematics] Leaders</title>
       <link>https://aaronberk.ca/post/fsl20d2/</link>
       <pubDate>Wed, 15 Jan 2020 19:52:38 -0800</pubDate>
