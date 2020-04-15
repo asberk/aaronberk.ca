@@ -128,3 +128,9 @@ dictionary once you're mostly up-and-running. Another great tutorial resource is
 includes some "[mathematical
 Python](https://www.math.ubc.ca/~pwalls/math-python/)" walkthroughs, and
 "machine learning with Python" walkthroughs.
+
+## Intro to PyTorch
+
+The purpose for this post was to establish the environment for an [Intro to
+PyTorch](https://github.com/asberk/intro_pytorch) tutorial. Follow the link for
+the repo.
