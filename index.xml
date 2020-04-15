@@ -131,6 +131,12 @@ dictionary once you&amp;rsquo;re mostly up-and-running. Another great tutorial r
 includes some &amp;ldquo;&lt;a href=&#34;https://www.math.ubc.ca/~pwalls/math-python/&#34; target=&#34;_blank&#34;&gt;mathematical
 Python&lt;/a&gt;&amp;rdquo; walkthroughs, and
 &amp;ldquo;machine learning with Python&amp;rdquo; walkthroughs.&lt;/p&gt;
+
+&lt;h2 id=&#34;intro-to-pytorch&#34;&gt;Intro to PyTorch&lt;/h2&gt;
+
+&lt;p&gt;The purpose for this post was to establish the environment for an &lt;a href=&#34;https://github.com/asberk/intro_pytorch&#34; target=&#34;_blank&#34;&gt;Intro to
+PyTorch&lt;/a&gt; tutorial. Follow the link for
+the repo.&lt;/p&gt;
 </description>
     </item>
     
