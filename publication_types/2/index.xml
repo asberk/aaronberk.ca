@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018 Aaron Berk</copyright>
-    <lastBuildDate>Mon, 02 Sep 2013 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 17 Aug 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://aaronberk.ca/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Sensitivity of ℓ₁ minimization to parameter choice</title>
+      <link>https://aaronberk.ca/publication/pir-spd/</link>
+      <pubDate>Mon, 17 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://aaronberk.ca/publication/pir-spd/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Enrichment map profiling of the cancer invasion front suggests regulation of colorectal cancer progression by the bone morphogenetic protein antagonist, gremlin-1</title>
