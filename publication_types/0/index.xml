@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>0 on Aaron Berk</title>
+    <link>https://aaronberk.ca/publication_types/0/</link>
+    <description>Recent content in 0 on Aaron Berk</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 Aaron Berk</copyright>
+    <lastBuildDate>Wed, 14 Oct 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://aaronberk.ca/publication_types/0/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Deep generative demixing: Recovering Lipschitz signals from noisy subgaussian mixtures</title>
+      <link>https://aaronberk.ca/publication/dgd-arxiv/</link>
+      <pubDate>Wed, 14 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://aaronberk.ca/publication/dgd-arxiv/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
