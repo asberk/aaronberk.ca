@@ -12,6 +12,15 @@ caption = "Future Science Leaders Day 2"
 +++
 
 
+This post was written as part of the Math section for the 2019-2020 [Future
+Science Leaders](https://www.scienceworld.ca/futurescienceleaders/) program. If
+you're interested in using any of the resources below for your own outreach
+program, there are two caveats. You are free to use any of my materials with
+proper attribution. However, some of the materials below were created or
+co-created by [Matt Coles](https://www.math.ubc.ca/~colesmp/) and for these you
+should e-mail us to check.
+
+
 ## Day 2 --- Coding in Python
 
 Welcome to Day 3 of the Math section of Future Science Leaders! Today, you will
