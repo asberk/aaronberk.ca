@@ -23,15 +23,6 @@ Description Learn how to get up and running with Hugo, a popular open-source sta
     </item>
     
     <item>
-      <title>Neural Networks in Keras</title>
-      <link>https://aaronberk.ca/project/neural-networks-keras/</link>
-      <pubDate>Tue, 12 Sep 2017 21:03:04 -0700</pubDate>
-      
-      <guid>https://aaronberk.ca/project/neural-networks-keras/</guid>
-      <description>Description This project is a five notebook tutorial available on GitHub, covering a brisk introduction to neural networks in keras using tensorflow. Note that various material has been borrowed, modified or shortened from the tensorflow and keras blogs. The repository is available on GitHub as Neural networks in keras.</description>
-    </item>
-    
-    <item>
       <title>Matrix Completion</title>
       <link>https://aaronberk.ca/project/matrix-completion/</link>
       <pubDate>Tue, 12 Sep 2017 20:59:02 -0700</pubDate>
@@ -69,28 +60,10 @@ Description Learn how to get up and running with Hugo, a popular open-source sta
     
     <item>
       <title></title>
-      <link>https://aaronberk.ca/project/simplml/</link>
-      <pubDate>Tue, 12 Sep 2017 18:32:06 -0700</pubDate>
-      
-      <guid>https://aaronberk.ca/project/simplml/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title></title>
       <link>https://aaronberk.ca/project/wavelets-are-cool/</link>
       <pubDate>Sat, 12 Aug 2017 20:49:35 -0700</pubDate>
       
       <guid>https://aaronberk.ca/project/wavelets-are-cool/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>A Proof of Calderón&#39;s Formula</title>
-      <link>https://aaronberk.ca/project/proof-calderon/</link>
-      <pubDate>Mon, 24 Apr 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://aaronberk.ca/project/proof-calderon/</guid>
       <description></description>
     </item>
     
@@ -100,15 +73,6 @@ Description Learn how to get up and running with Hugo, a popular open-source sta
       <pubDate>Mon, 24 Apr 2017 00:00:00 +0000</pubDate>
       
       <guid>https://aaronberk.ca/project/msc-proj/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Parameter Stability in CS</title>
-      <link>https://aaronberk.ca/project/iam-retreat-2017/</link>
-      <pubDate>Mon, 24 Apr 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://aaronberk.ca/project/iam-retreat-2017/</guid>
       <description></description>
     </item>
     
