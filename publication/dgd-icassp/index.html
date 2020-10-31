@@ -52,11 +52,11 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/apple-touch-icon.png">
 
-  <link rel="canonical" href="https://aaronberk.ca/publication/pics/">
+  <link rel="canonical" href="https://aaronberk.ca/publication/dgd-icassp/">
 
   
 
-  <title>On the best choice of Lasso program given data parameters | Aaron Berk</title>
+  <title>Deep generative demixing: Error bounds for demixing subgaussian mixtures of Lipschitz signals | Aaron Berk</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
@@ -168,10 +168,10 @@
 
 
   <div class="container pub-title">
-    <h1 itemprop="name">On the best choice of Lasso program given data parameters</h1>
+    <h1 itemprop="name">Deep generative demixing: Error bounds for demixing subgaussian mixtures of Lipschitz signals</h1>
     <span class="pub-authors" itemprop="author">
       
-      Berk A, Plan Y, Yilmaz Ö
+      Berk A
       
     </span>
     <span class="pull-right">
@@ -180,35 +180,35 @@
   <ul class="share">
     <li>
       <a class="facebook"
-         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2faaronberk.ca%2fpublication%2fpics%2f"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2faaronberk.ca%2fpublication%2fdgd-icassp%2f"
          target="_blank">
         <i class="fa fa-facebook"></i>
       </a>
     </li>
     <li>
       <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=On%20the%20best%20choice%20of%20Lasso%20program%20given%20data%20parameters&amp;url=https%3a%2f%2faaronberk.ca%2fpublication%2fpics%2f"
+         href="https://twitter.com/intent/tweet?text=Deep%20generative%20demixing%3a%20Error%20bounds%20for%20demixing%20subgaussian%20mixtures%20of%20Lipschitz%20signals&amp;url=https%3a%2f%2faaronberk.ca%2fpublication%2fdgd-icassp%2f"
          target="_blank">
         <i class="fa fa-twitter"></i>
       </a>
     </li>
     <li>
       <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2faaronberk.ca%2fpublication%2fpics%2f&amp;title=On%20the%20best%20choice%20of%20Lasso%20program%20given%20data%20parameters"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2faaronberk.ca%2fpublication%2fdgd-icassp%2f&amp;title=Deep%20generative%20demixing%3a%20Error%20bounds%20for%20demixing%20subgaussian%20mixtures%20of%20Lipschitz%20signals"
          target="_blank">
         <i class="fa fa-linkedin"></i>
       </a>
     </li>
     <li>
       <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2faaronberk.ca%2fpublication%2fpics%2f&amp;title=On%20the%20best%20choice%20of%20Lasso%20program%20given%20data%20parameters"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2faaronberk.ca%2fpublication%2fdgd-icassp%2f&amp;title=Deep%20generative%20demixing%3a%20Error%20bounds%20for%20demixing%20subgaussian%20mixtures%20of%20Lipschitz%20signals"
          target="_blank">
         <i class="fa fa-weibo"></i>
       </a>
     </li>
     <li>
       <a class="email"
-         href="mailto:?subject=On%20the%20best%20choice%20of%20Lasso%20program%20given%20data%20parameters&amp;body=https%3a%2f%2faaronberk.ca%2fpublication%2fpics%2f">
+         href="mailto:?subject=Deep%20generative%20demixing%3a%20Error%20bounds%20for%20demixing%20subgaussian%20mixtures%20of%20Lipschitz%20signals&amp;body=https%3a%2f%2faaronberk.ca%2fpublication%2fdgd-icassp%2f">
         <i class="fa fa-envelope"></i>
       </a>
     </li>
@@ -225,7 +225,7 @@
   
 
   <h3>Abstract</h3>
-  <p class="pub-abstract" itemprop="text">Generalized compressed sensing (GCS) is a paradigm in which a structured high-dimensional signal may be recovered from random, under-determined, and corrupted linear measurements. Generalized Lasso (GL) programs are effective for solving GCS problems due to their proven ability to leverage underlying signal structure. Three popular GL programs are equivalent in a sense and sometimes used interchangeably. Tuned by a governing parameter, each admit an optimal parameter choice. For sparse or low-rank signal structures, this choice yields minimax order-optimal error. While GCS is well-studied, existing theory for GL programs typically concerns this optimally tuned setting. However, the optimal parameter value for a GL program depends on properties of the data, and is typically unknown in practical settings. Performance in empirical problems thus hinges on a program&rsquo;s parameter sensitivity: it is desirable that small variation about the optimal parameter choice begets small variation about the optimal risk. We examine the risk for these three programs and demonstrate that their parameter sensitivity can differ for the same data. We prove a <em>gauge-constrained</em> GL program admits asymptotic cusp-like behaviour of its risk in the limiting low-noise regime. We prove that a <em>residual-constrained</em> Lasso program has asymptotically suboptimal risk for very sparse vectors. These results contrast observations about an <em>unconstrained</em> Lasso program, which is relatively less sensitive to its parameter choice. We support the asymptotic theory with numerical simulations, demonstrating that parameter sensitivity of GL programs is readily observed for even modest dimensional parameters. Importantly, these simulations demonstrate regimes in which a GL program exhibits sensitivity to its parameter choice, though the other two do not. We hope this work aids practitioners in selecting a GL program for their problem.</p>
+  <p class="pub-abstract" itemprop="text">Generative neural networks (GNNs) have gained renown for efficaciously capturing intrinsic low-dimensional structure in natural images. Here, we investigate the subgaussian demixing problem for two Lipschitz signals, with GNN demixing as a special case. In demixing, one seeks identification of two signals given their sum and prior structural information. Here, we assume each signal lies in the range of a Lipschitz function, which includes many popular GNNs as a special case. We prove a sample complexity bound for nearly optimal recovery error that extends a recent result of Bora, <em>et al.</em> (2017) from the compressed sensing setting with gaussian matrices to demixing with subgaussian ones. Under a linear signal model in which the signals lie in convex sets, McCoy &amp; Tropp (2014) have characterized the sample complexity for identification under subgaussian mixing. In the present setting, the signal structure need not be convex. For example, our result applies to a domain that is a non-convex union of convex cones. We support the efficacy of this demixing model with numerical simulations using trained GNNs, suggesting an algorithm that would be an interesting object of further theoretical study.</p>
 
   
   <div class="row">
@@ -235,8 +235,8 @@
         <div class="col-xs-12 col-sm-3 pub-row-heading">Type</div>
         <div class="col-xs-12 col-sm-9">
           
-          <a href="/publication/#2">
-            Journal
+          <a href="/publication/#1">
+            Conference proceedings
           </a>
           
         </div>
@@ -252,7 +252,7 @@
     <div class="col-sm-10">
       <div class="row">
         <div class="col-xs-12 col-sm-3 pub-row-heading">Publication</div>
-        <div class="col-xs-12 col-sm-9">submitted to IEEE Transactions on Information Theory</div>
+        <div class="col-xs-12 col-sm-9">ICASSP 2021 (submitted)</div>
       </div>
     </div>
     <div class="col-sm-1"></div>
@@ -285,10 +285,6 @@
 
 
 
-<a class="btn btn-primary btn-outline" href="https://arxiv.org/pdf/2010.08884.pdf">
-  PDF
-</a>
-
 
 
 
@@ -314,13 +310,10 @@
   <nav>
   <ul class="pager">
     
-    <li class="previous"><a href="https://aaronberk.ca/publication/dgd-arxiv/"><span
-      aria-hidden="true">&larr;</span> Deep generative demixing: Recovering Lipschitz signals from noisy subgaussian mixtures</a></li>
+    <li class="previous"><a href="https://aaronberk.ca/publication/pics/"><span
+      aria-hidden="true">&larr;</span> On the best choice of Lasso program given data parameters</a></li>
     
 
-    
-    <li class="next"><a href="https://aaronberk.ca/publication/dgd-icassp/">Deep generative demixing: Error bounds for demixing subgaussian mixtures of Lipschitz signals <span
-      aria-hidden="true">&rarr;</span></a></li>
     
   </ul>
 </nav>
