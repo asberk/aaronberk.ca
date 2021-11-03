@@ -1,1 +1,6 @@
-My personal website; more updates to come soon
+My personal website. 
+
+Note to self: Do not use Hugo anymore; academic theme is very out of date with
+current branch and so cannot update properly. Instead, update raw HTML in
+public/ folder, at least until there's time to migrate to the newest hugo
+academic theme.
