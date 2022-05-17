@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Aaron Berk</title>
@@ -7,148 +7,9 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018 Aaron Berk</copyright>
-    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://aaronberk.ca/tags/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 14 Apr 2020 12:00:00 +0000</lastBuildDate><atom:link href="https://aaronberk.ca/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Content tagged as &#39;Academic&#39;</title>
-      <link>https://aaronberk.ca/tags/academic/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://aaronberk.ca/tags/academic/</guid>
-      <description>Here is a list of all the content that has been tagged as academic.</description>
-    </item>
-    
-    <item>
-      <title>Analysis</title>
-      <link>https://aaronberk.ca/tags/analysis/</link>
-      <pubDate>Mon, 24 Apr 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://aaronberk.ca/tags/analysis/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Coding</title>
-      <link>https://aaronberk.ca/tags/coding/</link>
-      <pubDate>Wed, 15 Jan 2020 19:52:38 -0800</pubDate>
-      
-      <guid>https://aaronberk.ca/tags/coding/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Compressed Sensing</title>
-      <link>https://aaronberk.ca/tags/compressed-sensing/</link>
-      <pubDate>Tue, 12 Sep 2017 20:59:02 -0700</pubDate>
-      
-      <guid>https://aaronberk.ca/tags/compressed-sensing/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Data Science</title>
-      <link>https://aaronberk.ca/tags/data-science/</link>
-      <pubDate>Wed, 27 Jun 2018 10:22:17 -0700</pubDate>
-      
-      <guid>https://aaronberk.ca/tags/data-science/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Decomposition</title>
-      <link>https://aaronberk.ca/tags/decomposition/</link>
-      <pubDate>Mon, 24 Apr 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://aaronberk.ca/tags/decomposition/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Gist</title>
-      <link>https://aaronberk.ca/tags/gist/</link>
-      <pubDate>Tue, 12 Sep 2017 18:46:08 -0700</pubDate>
-      
-      <guid>https://aaronberk.ca/tags/gist/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Github</title>
-      <link>https://aaronberk.ca/tags/github/</link>
-      <pubDate>Thu, 11 Oct 2018 00:00:00 -0700</pubDate>
-      
-      <guid>https://aaronberk.ca/tags/github/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Gradient Descent</title>
-      <link>https://aaronberk.ca/tags/gradient-descent/</link>
-      <pubDate>Tue, 12 Sep 2017 18:46:08 -0700</pubDate>
-      
-      <guid>https://aaronberk.ca/tags/gradient-descent/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Graph</title>
-      <link>https://aaronberk.ca/tags/graph/</link>
-      <pubDate>Mon, 24 Apr 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://aaronberk.ca/tags/graph/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Graphs</title>
-      <link>https://aaronberk.ca/tags/graphs/</link>
-      <pubDate>Mon, 24 Apr 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://aaronberk.ca/tags/graphs/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Harmonic Analysis</title>
-      <link>https://aaronberk.ca/tags/harmonic-analysis/</link>
-      <pubDate>Sat, 12 Aug 2017 20:49:35 -0700</pubDate>
-      
-      <guid>https://aaronberk.ca/tags/harmonic-analysis/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Hugo</title>
-      <link>https://aaronberk.ca/tags/hugo/</link>
-      <pubDate>Thu, 11 Oct 2018 00:00:00 -0700</pubDate>
-      
-      <guid>https://aaronberk.ca/tags/hugo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Image</title>
-      <link>https://aaronberk.ca/tags/image/</link>
-      <pubDate>Mon, 24 Apr 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://aaronberk.ca/tags/image/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Image Processing</title>
-      <link>https://aaronberk.ca/tags/image-processing/</link>
-      <pubDate>Mon, 24 Apr 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://aaronberk.ca/tags/image-processing/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Install</title>
+      <title>install</title>
       <link>https://aaronberk.ca/tags/install/</link>
       <pubDate>Tue, 14 Apr 2020 12:00:00 +0000</pubDate>
       
@@ -157,88 +18,7 @@
     </item>
     
     <item>
-      <title>Littlewood</title>
-      <link>https://aaronberk.ca/tags/littlewood/</link>
-      <pubDate>Mon, 24 Apr 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://aaronberk.ca/tags/littlewood/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Machine Learning</title>
-      <link>https://aaronberk.ca/tags/machine-learning/</link>
-      <pubDate>Wed, 27 Jun 2018 10:22:17 -0700</pubDate>
-      
-      <guid>https://aaronberk.ca/tags/machine-learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Mathematics</title>
-      <link>https://aaronberk.ca/tags/mathematics/</link>
-      <pubDate>Wed, 15 Jan 2020 19:52:38 -0800</pubDate>
-      
-      <guid>https://aaronberk.ca/tags/mathematics/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Multi Scale</title>
-      <link>https://aaronberk.ca/tags/multi-scale/</link>
-      <pubDate>Mon, 24 Apr 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://aaronberk.ca/tags/multi-scale/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Multiscale</title>
-      <link>https://aaronberk.ca/tags/multiscale/</link>
-      <pubDate>Mon, 24 Apr 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://aaronberk.ca/tags/multiscale/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Outreach</title>
-      <link>https://aaronberk.ca/tags/outreach/</link>
-      <pubDate>Wed, 15 Jan 2020 19:52:38 -0800</pubDate>
-      
-      <guid>https://aaronberk.ca/tags/outreach/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Paley</title>
-      <link>https://aaronberk.ca/tags/paley/</link>
-      <pubDate>Mon, 24 Apr 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://aaronberk.ca/tags/paley/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Pde</title>
-      <link>https://aaronberk.ca/tags/pde/</link>
-      <pubDate>Mon, 24 Apr 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://aaronberk.ca/tags/pde/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Processing</title>
-      <link>https://aaronberk.ca/tags/processing/</link>
-      <pubDate>Mon, 24 Apr 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://aaronberk.ca/tags/processing/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Python</title>
+      <title>python</title>
       <link>https://aaronberk.ca/tags/python/</link>
       <pubDate>Tue, 14 Apr 2020 12:00:00 +0000</pubDate>
       
@@ -247,16 +27,7 @@
     </item>
     
     <item>
-      <title>Signal Processing</title>
-      <link>https://aaronberk.ca/tags/signal-processing/</link>
-      <pubDate>Sat, 12 Aug 2017 20:49:35 -0700</pubDate>
-      
-      <guid>https://aaronberk.ca/tags/signal-processing/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Software</title>
+      <title>software</title>
       <link>https://aaronberk.ca/tags/software/</link>
       <pubDate>Tue, 14 Apr 2020 12:00:00 +0000</pubDate>
       
@@ -265,16 +36,52 @@
     </item>
     
     <item>
-      <title>Spectral</title>
-      <link>https://aaronberk.ca/tags/spectral/</link>
-      <pubDate>Mon, 24 Apr 2017 00:00:00 +0000</pubDate>
+      <title>coding</title>
+      <link>https://aaronberk.ca/tags/coding/</link>
+      <pubDate>Wed, 15 Jan 2020 19:52:38 -0800</pubDate>
       
-      <guid>https://aaronberk.ca/tags/spectral/</guid>
+      <guid>https://aaronberk.ca/tags/coding/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Tutorial</title>
+      <title>mathematics</title>
+      <link>https://aaronberk.ca/tags/mathematics/</link>
+      <pubDate>Wed, 15 Jan 2020 19:52:38 -0800</pubDate>
+      
+      <guid>https://aaronberk.ca/tags/mathematics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>outreach</title>
+      <link>https://aaronberk.ca/tags/outreach/</link>
+      <pubDate>Wed, 15 Jan 2020 19:52:38 -0800</pubDate>
+      
+      <guid>https://aaronberk.ca/tags/outreach/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>github</title>
+      <link>https://aaronberk.ca/tags/github/</link>
+      <pubDate>Thu, 11 Oct 2018 00:00:00 -0700</pubDate>
+      
+      <guid>https://aaronberk.ca/tags/github/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hugo</title>
+      <link>https://aaronberk.ca/tags/hugo/</link>
+      <pubDate>Thu, 11 Oct 2018 00:00:00 -0700</pubDate>
+      
+      <guid>https://aaronberk.ca/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tutorial</title>
       <link>https://aaronberk.ca/tags/tutorial/</link>
       <pubDate>Thu, 11 Oct 2018 00:00:00 -0700</pubDate>
       
@@ -283,12 +90,201 @@
     </item>
     
     <item>
-      <title>Website</title>
+      <title>website</title>
       <link>https://aaronberk.ca/tags/website/</link>
       <pubDate>Thu, 11 Oct 2018 00:00:00 -0700</pubDate>
       
       <guid>https://aaronberk.ca/tags/website/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>data-science</title>
+      <link>https://aaronberk.ca/tags/data-science/</link>
+      <pubDate>Wed, 27 Jun 2018 10:22:17 -0700</pubDate>
+      
+      <guid>https://aaronberk.ca/tags/data-science/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>machine-learning</title>
+      <link>https://aaronberk.ca/tags/machine-learning/</link>
+      <pubDate>Wed, 27 Jun 2018 10:22:17 -0700</pubDate>
+      
+      <guid>https://aaronberk.ca/tags/machine-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>compressed-sensing</title>
+      <link>https://aaronberk.ca/tags/compressed-sensing/</link>
+      <pubDate>Tue, 12 Sep 2017 20:59:02 -0700</pubDate>
+      
+      <guid>https://aaronberk.ca/tags/compressed-sensing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>gist</title>
+      <link>https://aaronberk.ca/tags/gist/</link>
+      <pubDate>Tue, 12 Sep 2017 18:46:08 -0700</pubDate>
+      
+      <guid>https://aaronberk.ca/tags/gist/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>gradient-descent</title>
+      <link>https://aaronberk.ca/tags/gradient-descent/</link>
+      <pubDate>Tue, 12 Sep 2017 18:46:08 -0700</pubDate>
+      
+      <guid>https://aaronberk.ca/tags/gradient-descent/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>harmonic-analysis</title>
+      <link>https://aaronberk.ca/tags/harmonic-analysis/</link>
+      <pubDate>Sat, 12 Aug 2017 20:49:35 -0700</pubDate>
+      
+      <guid>https://aaronberk.ca/tags/harmonic-analysis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>signal-processing</title>
+      <link>https://aaronberk.ca/tags/signal-processing/</link>
+      <pubDate>Sat, 12 Aug 2017 20:49:35 -0700</pubDate>
+      
+      <guid>https://aaronberk.ca/tags/signal-processing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>analysis</title>
+      <link>https://aaronberk.ca/tags/analysis/</link>
+      <pubDate>Mon, 24 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://aaronberk.ca/tags/analysis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>decomposition</title>
+      <link>https://aaronberk.ca/tags/decomposition/</link>
+      <pubDate>Mon, 24 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://aaronberk.ca/tags/decomposition/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>graph</title>
+      <link>https://aaronberk.ca/tags/graph/</link>
+      <pubDate>Mon, 24 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://aaronberk.ca/tags/graph/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>graphs</title>
+      <link>https://aaronberk.ca/tags/graphs/</link>
+      <pubDate>Mon, 24 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://aaronberk.ca/tags/graphs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>image</title>
+      <link>https://aaronberk.ca/tags/image/</link>
+      <pubDate>Mon, 24 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://aaronberk.ca/tags/image/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>image-processing</title>
+      <link>https://aaronberk.ca/tags/image-processing/</link>
+      <pubDate>Mon, 24 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://aaronberk.ca/tags/image-processing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>littlewood</title>
+      <link>https://aaronberk.ca/tags/littlewood/</link>
+      <pubDate>Mon, 24 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://aaronberk.ca/tags/littlewood/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>multi-scale</title>
+      <link>https://aaronberk.ca/tags/multi-scale/</link>
+      <pubDate>Mon, 24 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://aaronberk.ca/tags/multi-scale/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>multiscale</title>
+      <link>https://aaronberk.ca/tags/multiscale/</link>
+      <pubDate>Mon, 24 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://aaronberk.ca/tags/multiscale/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>paley</title>
+      <link>https://aaronberk.ca/tags/paley/</link>
+      <pubDate>Mon, 24 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://aaronberk.ca/tags/paley/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pde</title>
+      <link>https://aaronberk.ca/tags/pde/</link>
+      <pubDate>Mon, 24 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://aaronberk.ca/tags/pde/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>processing</title>
+      <link>https://aaronberk.ca/tags/processing/</link>
+      <pubDate>Mon, 24 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://aaronberk.ca/tags/processing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>spectral</title>
+      <link>https://aaronberk.ca/tags/spectral/</link>
+      <pubDate>Mon, 24 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://aaronberk.ca/tags/spectral/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Content tagged as &#39;Academic&#39;</title>
+      <link>https://aaronberk.ca/tags/academic/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://aaronberk.ca/tags/academic/</guid>
+      <description>Here is a list of all the content that has been tagged as academic.</description>
     </item>
     
   </channel>

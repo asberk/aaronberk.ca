@@ -1,27 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Machine Learning on Aaron Berk</title>
+    <title>machine-learning on Aaron Berk</title>
     <link>https://aaronberk.ca/tags/machine-learning/</link>
-    <description>Recent content in Machine Learning on Aaron Berk</description>
+    <description>Recent content in machine-learning on Aaron Berk</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018 Aaron Berk</copyright>
-    <lastBuildDate>Wed, 27 Jun 2018 10:22:17 -0700</lastBuildDate>
-    
-	<atom:link href="https://aaronberk.ca/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Wed, 27 Jun 2018 10:22:17 -0700</lastBuildDate><atom:link href="https://aaronberk.ca/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Reflection: 2018 BC Data Science Workshop</title>
       <link>https://aaronberk.ca/post/bcdata-workshop-2018/</link>
       <pubDate>Wed, 27 Jun 2018 10:22:17 -0700</pubDate>
       
       <guid>https://aaronberk.ca/post/bcdata-workshop-2018/</guid>
-      <description>Summary This is a summary and reflection from co-organizing the second iteration of the BC Data Workshop.
-About The BC Data Workshop was hosted June 4 &amp;ndash; 8 on the UBC campus, co-organized with the IAM Director Brian Wetton, supported by PIMS.
-The workshop featured a wide array of problem material from industry in the lower mainland, channeled as week-long data science projects led by industry mentors.
-Projects Project 1: SSR Mining Participants analyzed over 50 GB of data for particular heavy equipment used in an ongoing mining operation to discover patterns in equipment failure for predictive maintenance strategies.</description>
+      <description>A brief summary and some incomplete reflections from the 2018 BC Data Science workshop.</description>
     </item>
     
     <item>
@@ -30,7 +23,7 @@ Projects Project 1: SSR Mining Participants analyzed over 50 GB of data for part
       <pubDate>Tue, 12 Sep 2017 20:59:02 -0700</pubDate>
       
       <guid>https://aaronberk.ca/project/matrix-completion/</guid>
-      <description></description>
+      <description>A matrix completion mini-project that I designed for the 2017 BC Data Science Workshop</description>
     </item>
     
     <item>
@@ -39,9 +32,7 @@ Projects Project 1: SSR Mining Participants analyzed over 50 GB of data for part
       <pubDate>Tue, 12 Sep 2017 19:47:28 -0700</pubDate>
       
       <guid>https://aaronberk.ca/post/bcdata-workshop-2017/</guid>
-      <description>Summary This is a brief summary and some incomplete reflections from my time as the workshop TA for the 2017 BC Data Science Workshop.
-About The BC Data Workshop was hosted August 9 &amp;ndash; 25 in downtown Vancouver at UBC Robson Square, co-organized by myself, Brian Wetton and Lee Rippon from the IAM, with support from PIMS and SFU Mathematics.
-The workshop featured a wide array of material from experts across the west coast, structured into three sections: a 3-day pre-workshop intensive; a week of introductory material; and a week-long data science project led by industry mentors.</description>
+      <description>A brief summary and some incomplete reflections from my time as the workshop TA for the 2017 BC Data Science workshop.</description>
     </item>
     
     <item>
@@ -50,7 +41,7 @@ The workshop featured a wide array of material from experts across the west coas
       <pubDate>Tue, 12 Sep 2017 18:53:46 -0700</pubDate>
       
       <guid>https://aaronberk.ca/project/bcdata-smartshores/</guid>
-      <description></description>
+      <description>My take on the Smart Shores project from the &lt;a href=&#34;workshop.bcdata.ca&#34;&gt;bcdata workshop&lt;/a&gt;</description>
     </item>
     
     <item>
@@ -59,7 +50,7 @@ The workshop featured a wide array of material from experts across the west coas
       <pubDate>Tue, 12 Sep 2017 18:50:39 -0700</pubDate>
       
       <guid>https://aaronberk.ca/project/bcdata-midvale-take1/</guid>
-      <description></description>
+      <description>My take on the video compression project from the &lt;a href=&#34;http://workshop.bcdata.ca&#34;&gt;bcdata workshop&lt;/a&gt;</description>
     </item>
     
     <item>
@@ -68,7 +59,7 @@ The workshop featured a wide array of material from experts across the west coas
       <pubDate>Tue, 12 Sep 2017 18:46:08 -0700</pubDate>
       
       <guid>https://aaronberk.ca/project/gradient-descent/</guid>
-      <description></description>
+      <description>Gradient descent concepts from Mark Schmidt&amp;rsquo;s 540 course at UBC (with code ported to Python).</description>
     </item>
     
   </channel>

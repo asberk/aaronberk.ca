@@ -1,27 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Software on Aaron Berk</title>
+    <title>software on Aaron Berk</title>
     <link>https://aaronberk.ca/tags/software/</link>
-    <description>Recent content in Software on Aaron Berk</description>
+    <description>Recent content in software on Aaron Berk</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018 Aaron Berk</copyright>
-    <lastBuildDate>Tue, 14 Apr 2020 12:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://aaronberk.ca/tags/software/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 14 Apr 2020 12:00:00 +0000</lastBuildDate><atom:link href="https://aaronberk.ca/tags/software/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Python installation tutorial</title>
       <link>https://aaronberk.ca/post/python-install-tutorial/</link>
       <pubDate>Tue, 14 Apr 2020 12:00:00 +0000</pubDate>
       
       <guid>https://aaronberk.ca/post/python-install-tutorial/</guid>
-      <description>There will be approximately three steps to this tutorial.
- Install Homebrew Use brew to install the latest version of python
-Verify that the installation is working correctly and troubleshoot if necessary. Install useful packages using pip.
-Ensure they are working and troubleshoot if necessary.  Installing Homebrew A main tool in our installation process will be homebrew. Homebrew is a package manager for Mac OS that is extremely handy, well beyond the scope of installing Python.</description>
+      <description>Install python3 using Homebrew.</description>
     </item>
     
   </channel>

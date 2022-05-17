@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Aaron Berk</title>
@@ -7,12 +7,9 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018 Aaron Berk</copyright>
-    
-	<atom:link href="https://aaronberk.ca/categories/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Thu, 14 Sep 2017 11:47:47 -0700</lastBuildDate><atom:link href="https://aaronberk.ca/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Compressed Sensing</title>
+      <title>compressed-sensing</title>
       <link>https://aaronberk.ca/categories/compressed-sensing/</link>
       <pubDate>Thu, 14 Sep 2017 11:47:47 -0700</pubDate>
       
@@ -21,7 +18,7 @@
     </item>
     
     <item>
-      <title>Convex Optimization</title>
+      <title>convex-optimization</title>
       <link>https://aaronberk.ca/categories/convex-optimization/</link>
       <pubDate>Thu, 14 Sep 2017 11:47:47 -0700</pubDate>
       
@@ -30,7 +27,7 @@
     </item>
     
     <item>
-      <title>Data Science</title>
+      <title>data-science</title>
       <link>https://aaronberk.ca/categories/data-science/</link>
       <pubDate>Thu, 14 Sep 2017 11:47:47 -0700</pubDate>
       
@@ -39,7 +36,7 @@
     </item>
     
     <item>
-      <title>Matrix Completion</title>
+      <title>matrix-completion</title>
       <link>https://aaronberk.ca/categories/matrix-completion/</link>
       <pubDate>Thu, 14 Sep 2017 11:47:47 -0700</pubDate>
       
@@ -48,7 +45,7 @@
     </item>
     
     <item>
-      <title>Tutorial</title>
+      <title>tutorial</title>
       <link>https://aaronberk.ca/categories/tutorial/</link>
       <pubDate>Thu, 14 Sep 2017 11:47:47 -0700</pubDate>
       

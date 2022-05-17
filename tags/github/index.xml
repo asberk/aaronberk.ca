@@ -1,25 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Github on Aaron Berk</title>
+    <title>github on Aaron Berk</title>
     <link>https://aaronberk.ca/tags/github/</link>
-    <description>Recent content in Github on Aaron Berk</description>
+    <description>Recent content in github on Aaron Berk</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018 Aaron Berk</copyright>
-    <lastBuildDate>Thu, 11 Oct 2018 00:00:00 -0700</lastBuildDate>
-    
-	<atom:link href="https://aaronberk.ca/tags/github/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Thu, 11 Oct 2018 00:00:00 -0700</lastBuildDate><atom:link href="https://aaronberk.ca/tags/github/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Host a website on GitHub with Hugo</title>
       <link>https://aaronberk.ca/project/hugo-tutorial/</link>
       <pubDate>Thu, 11 Oct 2018 00:00:00 -0700</pubDate>
       
       <guid>https://aaronberk.ca/project/hugo-tutorial/</guid>
-      <description>16:00 &amp;ndash; 17:00, Thursday 11 October 2018, LSK 121.
-Description Learn how to get up and running with Hugo, a popular open-source static site generator that&amp;rsquo;s fast and easy to use. Attendees can follow a live coding session to learn how to generate and customize a brand new Hugo website. We&amp;rsquo;ll learn how to host the website from a GitHub repository using GitHub Pages. Time and interest permitting, we&amp;rsquo;ll explore how to host the site on a custom domain (like asberk.</description>
+      <description>A tutorial on how to create, customize and host a website using Hugo and GitHub Pages.</description>
     </item>
     
   </channel>

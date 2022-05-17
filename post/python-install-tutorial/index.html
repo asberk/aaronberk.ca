@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="theme" content="hugo-academic">
-  <meta name="generator" content="Hugo 0.37.1" />
+  <meta name="generator" content="Hugo 0.87.0" />
   <meta name="author" content="Aaron Berk">
   <meta name="description" content="PhD Candidate in Applied Mathematics">
 
@@ -249,125 +249,88 @@
 </div>
 
     <div class="article-style" itemprop="articleBody">
-      
-
-<p>There will be approximately three steps to this tutorial.</p>
-
+      <p>There will be approximately three steps to this tutorial.</p>
 <ol>
 <li>Install Homebrew</li>
-<li>Use <code>brew</code> to install the latest version of <code>python</code><br />
+<li>Use <code>brew</code> to install the latest version of <code>python</code><br>
 Verify that the installation is working correctly and troubleshoot if
 necessary.</li>
-<li>Install useful packages using <code>pip</code>.<br />
+<li>Install useful packages using <code>pip</code>.<br>
 Ensure they are working and troubleshoot if necessary.</li>
 </ol>
-
 <h2 id="installing-homebrew">Installing Homebrew</h2>
-
 <p>A main tool in our installation process will be homebrew. Homebrew is a package
 manager for Mac OS that is extremely handy, well beyond the scope of installing
 Python. First we&rsquo;ll check if homebrew is already installed. To do so, run the
 following snippet and look examine the output. If homebrew is installed, then it
 should print out some version information.</p>
-
 <pre><code>&gt; brew --version
 Homebrew 2.2.12
 Homebrew/homebrew-core (git revision d51e0f; last commit 2020-04-09)
 Homebrew/homebrew-cask (git revision 78b7f; last commit 2020-04-09)
 </code></pre>
-
 <p>If running the above command gives an error because <code>brew</code> is not a defined
 command, then you&rsquo;ll have to install homebrew. To do so, open a new Terminal
-window and enter the following (this snippet was taken from the <a href="https://brew.sh/" target="_blank">homebrew main
+window and enter the following (this snippet was taken from the <a href="https://brew.sh/">homebrew main
 page</a>).</p>
-
 <pre><code>/bin/bash -c &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)&quot;
-</code></pre>
-
-<p>As a brief caveat, it&rsquo;s possible you will first have to install some XCode
+</code></pre><p>As a brief caveat, it&rsquo;s possible you will first have to install some XCode
 components required by <code>brew</code>, in which case <code>brew</code> should let you know. Be
 prepared to run the following snippet and follow along with the install
 instructions.</p>
-
-<pre><code class="language-bash">xcode-select --install
-</code></pre>
-
-<p>If the installation of brew worked, then you should now be able to run</p>
-
-<pre><code class="language-bash">brew --version
-</code></pre>
-
-<p>and see some version information as per the above.</p>
-
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">xcode-select --install
+</code></pre></div><p>If the installation of brew worked, then you should now be able to run</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">brew --version
+</code></pre></div><p>and see some version information as per the above.</p>
 <h2 id="installing-python">Installing Python</h2>
-
 <p>Now, installing Python should be as easy as running:</p>
-
-<pre><code class="language-bash">&gt; brew install python3
-&lt;&lt;long&gt;&gt;
-
-&gt; python --version
-Python 3.6.10 :: Anaconda, Inc.
-
-&gt; pip -V
-pip 20.0.2 from /Users/aberk/anaconda/envs/py37/lib/python3.6/site-packages/pip (python 3.6)
-</code></pre>
-
-<p><strong>Note:</strong> An alternative to the homebrew installation avenue is to download an
-installer file from the <a href="https://www.python.org/downloads/release/python-382/" target="_blank">official Python
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">&gt; brew install python3
+<span style="color:#e6db74">&lt;&lt;long&gt;&gt;
+</span><span style="color:#e6db74">
+</span><span style="color:#e6db74">&gt; python --version
+</span><span style="color:#e6db74">Python 3.6.10 :: Anaconda, Inc.
+</span><span style="color:#e6db74">
+</span><span style="color:#e6db74">&gt; pip -V
+</span><span style="color:#e6db74">pip 20.0.2 from /Users/aberk/anaconda/envs/py37/l</span>ib/python3.6/site-packages/pip <span style="color:#f92672">(</span>python 3.6<span style="color:#f92672">)</span>
+</code></pre></div><p><strong>Note:</strong> An alternative to the homebrew installation avenue is to download an
+installer file from the <a href="https://www.python.org/downloads/release/python-382/">official Python
 page</a>. I have no
 familiarity using this avenue.</p>
-
 <h2 id="installing-commonly-used-packages">Installing commonly used packages</h2>
-
 <p>This tutorial was tailored for a machine learning audience, so the installed
 packages will contain some packages that are useful for ML.</p>
-
-<pre><code class="language-bash">&gt; pip install numpy pandas matplotlib 
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">&gt; pip install numpy pandas matplotlib 
 &gt; pip install scipy seaborn sckit-learn
 &gt; pip install feather-format
 &gt; pip install torch torchvision
 &gt; pip install notebook jupyterlab
-</code></pre>
-
-<p>There are numerous other useful packages to install, but let&rsquo;s see if we can get
+</code></pre></div><p>There are numerous other useful packages to install, but let&rsquo;s see if we can get
 up and running with these first. In all cases, you should be able to confirm
 that a package was installed correctly by running the following snippet and
 observing the package&rsquo;s version number as the output.</p>
-
-<pre><code class="language-bash">&gt; python -c 'import the_package; print(the_package.__version__)'
-</code></pre>
-
-<p>For example, on my machine:</p>
-
-<pre><code class="language-bash">&gt; python -c 'import numpy; print(numpy.__version__)'
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">&gt; python -c <span style="color:#e6db74">&#39;import the_package; print(the_package.__version__)&#39;</span>
+</code></pre></div><p>For example, on my machine:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">&gt; python -c <span style="color:#e6db74">&#39;import numpy; print(numpy.__version__)&#39;</span>
 1.18.1
-</code></pre>
-
-<p>In rare instances, a package may not implement the (more-or-less standard)
+</code></pre></div><p>In rare instances, a package may not implement the (more-or-less standard)
 <code>.__version__</code> syntax. Python will throw an error in this exceptional case.</p>
-
 <h2 id="more-information">More information</h2>
-
 <p>See
-<a href="https://medium.com/faun/the-right-way-to-set-up-python-on-your-mac-e923ffe8cf8e" target="_blank">here</a>
+<a href="https://medium.com/faun/the-right-way-to-set-up-python-on-your-mac-e923ffe8cf8e">here</a>
 for some alternative information on installing Python and managing
 environments. The post seems slightly out-of-date (by about a year). The short
 timeframe of this obsolescence does not bode well for the present tutorial. 😅</p>
-
-<p>For learning how to program in Python, the <a href="https://docs.python.org/3/tutorial/" target="_blank">official
+<p>For learning how to program in Python, the <a href="https://docs.python.org/3/tutorial/">official
 documentation</a> provides extensive resources
-for getting up-and-running, as well as a <a href="https://docs.python.org/3/reference/" target="_blank">language
+for getting up-and-running, as well as a <a href="https://docs.python.org/3/reference/">language
 reference</a> which serves as a bit of a
 dictionary once you&rsquo;re mostly up-and-running. Another great tutorial resource is
-<a href="https://www.math.ubc.ca/~pwalls/#ubcs3" target="_blank">Patrick Walls&rsquo;s UBCS3 page</a> which
-includes some &ldquo;<a href="https://www.math.ubc.ca/~pwalls/math-python/" target="_blank">mathematical
+<a href="https://www.math.ubc.ca/~pwalls/#ubcs3">Patrick Walls&rsquo;s UBCS3 page</a> which
+includes some &ldquo;<a href="https://www.math.ubc.ca/~pwalls/math-python/">mathematical
 Python</a>&rdquo; walkthroughs, and
 &ldquo;machine learning with Python&rdquo; walkthroughs.</p>
-
 <h2 id="intro-to-pytorch">Intro to PyTorch</h2>
-
-<p>The purpose for this post was to establish the environment for an <a href="https://github.com/asberk/intro_pytorch" target="_blank">Intro to
+<p>The purpose for this post was to establish the environment for an <a href="https://github.com/asberk/intro_pytorch">Intro to
 PyTorch</a> tutorial. Follow the link for
 the repo.</p>
 
@@ -402,7 +365,7 @@ the repo.</p>
   <div class="container">
     <p class="powered-by">
 
-       &copy; 2018 Aaron Berk 
+       © 2018 Aaron Berk 
 
 
       <span class="pull-right" aria-hidden="true">

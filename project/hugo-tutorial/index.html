@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="theme" content="hugo-academic">
-  <meta name="generator" content="Hugo 0.37.1" />
+  <meta name="generator" content="Hugo 0.87.0" />
   <meta name="author" content="Aaron Berk">
   <meta name="description" content="PhD Candidate in Applied Mathematics">
 
@@ -168,7 +168,7 @@
   
 <div class="article-header">
   <img src="/img/website-tutorial-banner.jpg" class="article-banner" itemprop="image">
-  <span class="article-header-caption">Images from <a href="https://pixabay.com/" target="_blank">Pixabay.com</a></span>
+  <span class="article-header-caption">Images from <a href="https://pixabay.com/">Pixabay.com</a></span>
 </div>
 
 
@@ -226,147 +226,124 @@
     
 
     <div class="article-style" itemprop="articleBody">
-      
-
-<p>16:00 &ndash; 17:00, Thursday 11 October 2018, LSK 121.</p>
-
+      <p>16:00 – 17:00, Thursday 11 October 2018, LSK 121.</p>
 <h3 id="description">Description</h3>
-
-<p>Learn how to get up and running with <a href="https://gohugo.io/" target="_blank">Hugo</a>, a popular
+<p>Learn how to get up and running with <a href="https://gohugo.io/">Hugo</a>, a popular
 open-source static site generator that&rsquo;s fast and easy to use. Attendees can
 follow a live coding session to learn how to generate and customize a brand new
 Hugo website. We&rsquo;ll learn how to host the website from a GitHub repository using
 GitHub Pages. Time and interest permitting, we&rsquo;ll explore how to host the site
-on a custom domain (like <a href="http://asberk.ca" target="_blank">asberk.ca</a>). This tutorial is the
+on a custom domain (like <a href="http://asberk.ca">asberk.ca</a>). This tutorial is the
 perfect starting point for breaking away from the frumpy academic webpages of
 yore, and attracting those shiny impressions that&rsquo;ll make your Google Analytics
 page sing.</p>
-
 <h3 id="requirements">Requirements</h3>
-
 <p>To be completed by attendees before the tutorial:</p>
-
 <ul>
-<li><a href="https://gohugo.io/getting-started/installing/" target="_blank">Install hugo</a> (e.g., using
+<li><a href="https://gohugo.io/getting-started/installing/">Install hugo</a> (e.g., using
 <code>brew install hugo</code>). If installed correctly, running <code>hugo version</code> in
 Terminal shouldn&rsquo;t return an error.</li>
-<li>Have a <a href="https://github.com/" target="_blank">GitHub account</a> (it&rsquo;s free to sign up)</li>
-<li>Ensure <a href="https://git-scm.com/downloads" target="_blank">git is installed</a>. If installed
+<li>Have a <a href="https://github.com/">GitHub account</a> (it&rsquo;s free to sign up)</li>
+<li>Ensure <a href="https://git-scm.com/downloads">git is installed</a>. If installed
 correctly, running <code>git --version</code> in Terminal shouldn&rsquo;t return an error.</li>
-<li>(Optional) Have an account with a domain registrar (e.g. <a href="https://domains.google/" target="_blank">Google
-Domains</a>, <a href="https://www.namecheap.com/" target="_blank">Namecheap</a>,
-<a href="https://cira.ca/" target="_blank">CIRA</a>, etc.)</li>
+<li>(Optional) Have an account with a domain registrar (e.g. <a href="https://domains.google/">Google
+Domains</a>, <a href="https://www.namecheap.com/">Namecheap</a>,
+<a href="https://cira.ca/">CIRA</a>, etc.)</li>
 </ul>
-
 <h3 id="disclaimer">Disclaimer</h3>
-
 <p>This tutorial claims absolutely no originality. It is merely a curation of the
 four articles below, designed so that virtually anyone in attendance can get a
 website up and running in one hour.</p>
-
-<p>For more details than what&rsquo;s covered in the tutorial, Hugo offers a <a href="https://gohugo.io/getting-started/quick-start/" target="_blank">Quickstart
+<p>For more details than what&rsquo;s covered in the tutorial, Hugo offers a <a href="https://gohugo.io/getting-started/quick-start/">Quickstart
 Guide</a> and a post covering
-<a href="https://gohugo.io/getting-started/usage/" target="_blank">Basic Usage</a>. In addition, there is
-an article about <a href="https://gohugo.io/hosting-and-deployment/hosting-on-github/" target="_blank">hosting on
+<a href="https://gohugo.io/getting-started/usage/">Basic Usage</a>. In addition, there is
+an article about <a href="https://gohugo.io/hosting-and-deployment/hosting-on-github/">hosting on
 GitHub</a> and about
-<a href="https://gohugo.io/hosting-and-deployment/hosting-on-github/#use-a-custom-domain" target="_blank">hosting on a custom
+<a href="https://gohugo.io/hosting-and-deployment/hosting-on-github/#use-a-custom-domain">hosting on a custom
 domain</a>.</p>
-
 <p>Finally, here are three registrar options for securing your own domain.</p>
-
 <ul>
-<li><a href="https://www.gandi.net/en" target="_blank">Gandi.net</a></li>
-<li><a href="https://internetbs.net" target="_blank">Internet.bs</a></li>
-<li><a href="https://www.namecheap.com/" target="_blank">Namecheap</a></li>
+<li><a href="https://www.gandi.net/en">Gandi.net</a></li>
+<li><a href="https://internetbs.net">Internet.bs</a></li>
+<li><a href="https://www.namecheap.com/">Namecheap</a></li>
 </ul>
-
 <h3 id="step-by-step">Step-by-step</h3>
-
 <ol>
 <li><code>brew install hugo</code></li>
 <li>Make sure hugo works by running <code>hugo version</code> in Terminal.</li>
 <li>Run <code>hugo new site quickstart</code> to create a new Hugo site in a folder named
 quickstart. e.g., I&rsquo;ve created mine in <code>~/www/quickstart/</code></li>
 <li>Make sure you have a new repository for the site on GitHub
-<img src="../../img/gh0.png" alt="gh0" /></li>
-
-<li><p>Get the example site into a repository</p>
-
-<pre><code class="language-bash">cd quickstart
-git init
-git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke
-git commit -m 'add theme submodule'
-rm config.toml
-cp -r themes/ananke/exampleSite/* ./
-# -&gt; change theme name to theme folder name
-# -&gt; remove themesDir variable
-# -&gt; change baseURL to http://quickstart.aaronberk.ca
-emacs config.toml
-git add *
-git commit -m '[IC] example site'
-git remote add origin git@github.com:asberk/quickstart.git
-git push -u origin master
-</code></pre></li>
-
-<li><p>Now we need to get this thing <a href="https://gohugo.io/hosting-and-deployment/hosting-on-github/#deployment-of-project-pages-from-your-gh-pages-branch" target="_blank">hosted on github pages</a>.</p>
-
-<pre><code class="language-bash"># master must ignore gh-pages branch
-echo &quot;public&quot; &gt;&gt; .gitignore
+<img src="../../img/gh0.png" alt="gh0"></li>
+<li>Get the example site into a repository</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">   cd quickstart
+   git init
+   git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke
+   git commit -m <span style="color:#e6db74">&#39;add theme submodule&#39;</span>
+   rm config.toml
+   cp -r themes/ananke/exampleSite/* ./
+   <span style="color:#75715e"># -&gt; change theme name to theme folder name</span>
+   <span style="color:#75715e"># -&gt; remove themesDir variable</span>
+   <span style="color:#75715e"># -&gt; change baseURL to http://quickstart.aaronberk.ca</span>
+   emacs config.toml
+   git add *
+   git commit -m <span style="color:#e6db74">&#39;[IC] example site&#39;</span>
+   git remote add origin git@github.com:asberk/quickstart.git
+   git push -u origin master
+</code></pre></div><ol start="6">
+<li>Now we need to get this thing <a href="https://gohugo.io/hosting-and-deployment/hosting-on-github/#deployment-of-project-pages-from-your-gh-pages-branch">hosted on github pages</a>.
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e"># master must ignore gh-pages branch</span>
+echo <span style="color:#e6db74">&#34;public&#34;</span> &gt;&gt; .gitignore
 git add .gitignore
-git commit -m 'add .gitignore'
+git commit -m <span style="color:#e6db74">&#39;add .gitignore&#39;</span>
 git push
-# initialize gh-pages branch
+<span style="color:#75715e"># initialize gh-pages branch</span>
 git checkout --orphan gh-pages
 git reset --hard
-git commit --allow-empty -m 'initializing gh-pages branch'
+git commit --allow-empty -m <span style="color:#e6db74">&#39;initializing gh-pages branch&#39;</span>
 git push origin gh-pages
 git checkout master
-# build and deploy using worktrees
+<span style="color:#75715e"># build and deploy using worktrees</span>
 rm -rf public
 git worktree add -B gh-pages public origin/gh-pages
-# --&gt; build site
+<span style="color:#75715e"># --&gt; build site</span>
 hugo
-cd public &amp;&amp; git add --all &amp;&amp; git commit -m 'publish to gh-pages' &amp;&amp; cd ..
+cd public <span style="color:#f92672">&amp;&amp;</span> git add --all <span style="color:#f92672">&amp;&amp;</span> git commit -m <span style="color:#e6db74">&#39;publish to gh-pages&#39;</span> <span style="color:#f92672">&amp;&amp;</span> cd ..
 git push origin gh-pages
-</code></pre>
-
-<p>That&rsquo;s the coding bit.</p></li>
-
-<li><p>Finally, we need to go to GitHub and Namecheap to finagle with some things. First Namecheap&hellip;
-<img src="../../img/namecheap0.png" alt="namecheap homepage" />
+</code></pre></div><p>That&rsquo;s the coding bit.</p>
+</li>
+<li>Finally, we need to go to GitHub and Namecheap to finagle with some things. First Namecheap&hellip;
+<img src="../../img/namecheap0.png" alt="namecheap homepage">
 Once you have a site, click on <strong>Manage</strong>
-<img src="../../img/namecheap1.png" alt="manage" />
+<img src="../../img/namecheap1.png" alt="manage">
 Then click on <strong>Advanced DNS</strong>
-<img src="../../img/namecheap2.png" alt="manage" />
+<img src="../../img/namecheap2.png" alt="manage">
 GitHub requires that you enter these two IPs as <strong>A Records</strong>.
-<img src="../../img/namecheap3.png" alt="manage" />
+<img src="../../img/namecheap3.png" alt="manage">
 If you wish to use a custom URL like quickstart.aaronberk.ca then you must
 <strong>enter a CNAME record</strong> for it.
-<img src="../../img/namecheap4.png" alt="manage" />
-<img src="../../img/namecheap5.png" alt="manage" /></p></li>
-
-<li><p>And next the settings on GitHub. First go into Settings. Scroll down to set
+<img src="../../img/namecheap4.png" alt="manage">
+<img src="../../img/namecheap5.png" alt="manage"></li>
+<li>And next the settings on GitHub. First go into Settings. Scroll down to set
 the custom domain field to your site. Then click Save.
-<img src="../../img/gh2.png" alt="gh3" /></p></li>
-
-<li><p>You should now be able to go to your shiny new website at
-<code>quickstart.aaronberk.ca</code>!</p></li>
-
-<li><p>How do you make changes to your website? Here are some tips</p>
-
+<img src="../../img/gh2.png" alt="gh3"></li>
+<li>You should now be able to go to your shiny new website at
+<code>quickstart.aaronberk.ca</code>!</li>
+<li>How do you make changes to your website? Here are some tips
 <ol>
 <li><code>hugo server</code> is your friend — let&rsquo;s you preview what&rsquo;s going on before
 you publish. Even refreshes every time you save changes.</li>
 <li>Useful shortcuts like <code>hugo new post/myNewPost.md</code></li>
 <li>Look at the theme documentation for its full set of features — sometimes
 there are many!</li>
-<li>Use the <code>publish.sh</code> script <a href="https://gohugo.io/hosting-and-deployment/hosting-on-github/#put-it-into-a-script-1" target="_blank">from the
+<li>Use the <code>publish.sh</code> script <a href="https://gohugo.io/hosting-and-deployment/hosting-on-github/#put-it-into-a-script-1">from the
 tutorial</a> (or a <a href="../../publish.txt">slightly modified one</a>). The
-only caveat here is that this doesn&rsquo;t actually do the final <code>git push
-origin gh-pages</code> that you need, so you can add it in at the end to make
+only caveat here is that this doesn&rsquo;t actually do the final <code>git push origin gh-pages</code> that you need, so you can add it in at the end to make
 sure it auto-pushes for you. Or don&rsquo;t, in case you don&rsquo;t want it to have
 that much power. 🐧</li>
-</ol></li>
+</ol>
+</li>
 </ol>
 
     </div>
@@ -392,7 +369,7 @@ that much power. 🐧</li>
   <div class="container">
     <p class="powered-by">
 
-       &copy; 2018 Aaron Berk 
+       © 2018 Aaron Berk 
 
 
       <span class="pull-right" aria-hidden="true">

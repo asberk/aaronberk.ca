@@ -1,26 +1,21 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tutorial on Aaron Berk</title>
+    <title>tutorial on Aaron Berk</title>
     <link>https://aaronberk.ca/categories/tutorial/</link>
-    <description>Recent content in Tutorial on Aaron Berk</description>
+    <description>Recent content in tutorial on Aaron Berk</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018 Aaron Berk</copyright>
-    <lastBuildDate>Thu, 14 Sep 2017 11:47:47 -0700</lastBuildDate>
-    
-	<atom:link href="https://aaronberk.ca/categories/tutorial/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Thu, 14 Sep 2017 11:47:47 -0700</lastBuildDate><atom:link href="https://aaronberk.ca/categories/tutorial/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Matrix Completion Whirlwind</title>
       <link>https://aaronberk.ca/post/matrix-completion-whirlwind/</link>
       <pubDate>Thu, 14 Sep 2017 11:47:47 -0700</pubDate>
       
       <guid>https://aaronberk.ca/post/matrix-completion-whirlwind/</guid>
-      <description> Summary I recently wrote some basic Python functions for a matrix completion tutorial, covering elementary theory and a couple popular convex optimization methods for matrix completion.
-The repository is available on GitHub, including the Jupyter notebook, which can be viewed on GitHub, as a gist, or below.
-Matrix completion whirlwind gist  </description>
+      <description>A post describing the code for a matrix completion tutorial I wrote
+for the 2017 BC Data Science workshop</description>
     </item>
     
   </channel>
