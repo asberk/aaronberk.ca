@@ -1,0 +1,20 @@
+* README
+
+created 6 November 2022 after the creation of my Google Sites page.
+
+** Helpful links
+
+ - https://github.com/tutts/google-sites-markdown :: helpful plugin for using
+   markdown on Google Sites pages. Note that backticks (the ones that define
+   code blocks) inside the main part below must be escaped!
+ #+begin_src html
+   <script src="https://cdn.jsdelivr.net/gh/tutts/google-sites-markdown/index.js"></script>
+   <frame height=500>
+   <script>
+   markdown`
+    COPY PASTE YOUR MARKDOWN HERE
+   `</script>
+   </frame>
+ #+end_src
+
+
